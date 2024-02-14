@@ -2,16 +2,14 @@ package com.algonquin.cst8288.assignment2.event;
 
 public abstract class Event {
     
-	
     protected String eventName;
     protected String eventDescription;
     protected String eventActivities;
     protected double admissionFees;
     
     
-    
     public Event() {
-
+    	
     }
     
  
