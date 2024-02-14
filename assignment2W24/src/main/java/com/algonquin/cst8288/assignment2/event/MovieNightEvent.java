@@ -2,12 +2,6 @@ package com.algonquin.cst8288.assignment2.event;
 import com.algonquin.cst8288.assignment2.constants.Constants;
 
 public class MovieNightEvent extends Event {
-
-	private String eventName;
-	private String eventActivities;
-	private String eventDescription;
-	private double admissionFees;
-	
 	
 	
 	public MovieNightEvent(String eventName, String eventActivities, String description) {

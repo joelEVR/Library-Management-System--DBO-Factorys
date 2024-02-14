@@ -1,14 +1,7 @@
 package com.algonquin.cst8288.assignment2.event;
-
 import com.algonquin.cst8288.assignment2.constants.Constants;
 
 public class KidsStoryEvent extends Event{
-
-	private String eventName;
-	private String eventActivities;
-	private String eventDescription;
-	private double admissionFees;
-	
 	
 	public KidsStoryEvent(String eventName, String eventActivities, String description) {
 		this.eventName = eventName;
@@ -23,5 +16,4 @@ public class KidsStoryEvent extends Event{
 		int rate = (int) Constants.KIDS_STORYTIME_RATE;
 		this.admissionFees = duration * rate;
 	}
-
 }
