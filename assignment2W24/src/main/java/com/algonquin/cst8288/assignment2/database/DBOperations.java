@@ -5,6 +5,8 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import com.algonquin.cst8288.assignment2.event.Event;
+import com.algonquin.cst8288.assignment2.event.EventType;
+import com.algonquin.cst8288.assignment2.service.EventService;
 
 import factory.Library;
 
