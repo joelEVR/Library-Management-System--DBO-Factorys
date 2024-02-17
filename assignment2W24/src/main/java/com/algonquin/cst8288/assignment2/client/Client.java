@@ -3,17 +3,17 @@ package com.algonquin.cst8288.assignment2.client;
 import com.algonquin.cst8288.assignment2.event.Event;
 
 import factory.CreatorAcademicLibrary;
-import factory.CreatorLibrary;
+import factory.Library;
 
 public class Client {
 	
 	public static void main(String[] args) {
 		
 		// Create a new EventFactory object
-		CreatorLibrary eventFactory = new CreatorAcademicLibrary();
+		Library eventFactory = new AcademicLibrary();
 
 		// Create a new Event object using the EventFactory object
-		Event event = eventFactory.createEvent("Movie Night", "Watch a movie", "This is a movie night event");
+		Event event = eventFactory.createEvent("Movie Night");
 
 		// Print the event name, event activities, and event description
 		System.out.println("Event Name: " + event.getEventName());
