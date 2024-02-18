@@ -12,12 +12,21 @@ import com.algonquin.cst8288.assignment2.event.Workshop;
 import com.algonquin.cst8288.assignment2.logger.LMSLogger;
 import com.algonquin.cst8288.assignment2.logger.LogLevel;
 
+/**
+ * Handles database operations related to event management.
+ * This class provides methods to create, retrieve, update, and delete events in the database.
+ */
 public class DBOperations {
 
 	// Database connection object
 	private static Connection connection = DBConnection.getInstance().getConnection();
 	private static PreparedStatement statement;
 
+	/**
+	 * Inserts a new event into the database.
+	 * 
+	 * @param event The event to be inserted into the database.
+	 */
 	public static void createEvent(Event event) {
         try {
             LMSLogger.getInstance().log(LogLevel.TRACE, "Attempting to create event: " + event.getEventName());
@@ -36,6 +45,12 @@ public class DBOperations {
         }
     }
 
+	/**
+	 * Retrieves an event from the database using its ID.
+	 * 
+	 * @param eventId The ID of the event to be retrieved.
+	 * @return The event found in the database or {@code null} if no event is found.
+	 */
 	public static Event retrieveEvent(int eventId) {
 	    Event event = null;
 	    try {
@@ -46,7 +61,7 @@ public class DBOperations {
 	        ResultSet resultSet = statement.executeQuery();
 	        if (resultSet.next()) {
 	            String eventName = resultSet.getString("event_name");
-	            // Determinar el tipo de evento basado en algún criterio. Esto es solo un ejemplo.
+	            // Determine the type of event based on some criteria. This is just an example.
 	            switch (eventName) {
 	                case "Workshop":
 	                    event = new Workshop();
@@ -61,7 +76,7 @@ public class DBOperations {
 	                    event = new KidsStoryTime();
 	                    break;
 	            }
-	            // Suponiendo que existen estos métodos para establecer los valores.
+	            // Assuming these methods exist to set the values.
 	            event.setEventName(resultSet.getString("event_name"));
 	            event.setEventDescription(resultSet.getString("event_description"));
 	            event.setEventActivities(resultSet.getString("event_activities"));
@@ -69,7 +84,7 @@ public class DBOperations {
 	            event.setEventId(resultSet.getInt("event_id"));
 	            LMSLogger.getInstance().log(LogLevel.INFO, "Event retrieved successfully: " + event.getEventName());
 	        } else {
-	            // Solo lograr que no se encontró el evento si resultSet.next() es falso.
+	            // Log that no event was found if resultSet.next() is false.
 	            LMSLogger.getInstance().log(LogLevel.WARN, "No event found with ID: " + eventId);
 	        }
 	    } catch (SQLException e) {
@@ -78,7 +93,11 @@ public class DBOperations {
 	    return event;
 	}
 
-
+	/**
+	 * Updates an existing event in the database.
+	 * 
+	 * @param event The event to be updated, including its new details.
+	 */
 	public static void updateEvent(Event event) {
 		try {
             LMSLogger.getInstance().log(LogLevel.TRACE, "Attempting to update event: " + event.getEventName());
@@ -89,7 +108,7 @@ public class DBOperations {
 			statement.setString(2, event.getEventDescription());
 			statement.setString(3, event.getEventActivities());
 			statement.setDouble(4, event.getAdmissionFees());
-			statement.setInt(5, event.getEventId()); // Usa el ID del evento aquí
+			statement.setInt(5, event.getEventId()); // Use the event's ID here
 
 			statement.executeUpdate();
 
@@ -99,6 +118,11 @@ public class DBOperations {
 		}
 	}
 
+	/**
+	 * Deletes an event from the database using its ID.
+	 * 
+	 * @param eventId The ID of the event to be deleted.
+	 */
 	public static void deleteEvent(int eventId) {
 		try {
             LMSLogger.getInstance().log(LogLevel.TRACE, "Attempting to delete event with ID: " + eventId);

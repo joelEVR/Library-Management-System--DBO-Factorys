@@ -162,3 +162,61 @@ TRACE: [2024-02-18T14:42:29.618482200] Attempting to retrieve event with ID: 4
 INFO: [2024-02-18T14:42:29.619482500] Event retrieved successfully: Movie night
 TRACE: [2024-02-18T14:42:29.619482500] Attempting to update event: New Name of the Event
 INFO: [2024-02-18T14:42:29.621638600] Event updated successfully: New Name of the Event
+INFO: [2024-02-18T17:16:31.122610500] Calculating admission fee for Workshop
+INFO: [2024-02-18T17:16:31.143793200] Admission fee calculated for Workshop: 15.0
+INFO: [2024-02-18T17:16:31.640890100] Database connection established
+TRACE: [2024-02-18T17:16:31.640890100] Attempting to create event: Workshop
+INFO: [2024-02-18T17:16:31.666303700] Event created successfully: Workshop
+TRACE: [2024-02-18T17:16:31.666303700] Attempting to create event: Book launch
+INFO: [2024-02-18T17:16:31.668305900] Event created successfully: Book launch
+TRACE: [2024-02-18T17:16:31.669304600] Attempting to create event: Kids story time
+INFO: [2024-02-18T17:16:31.671305800] Event created successfully: Kids story time
+TRACE: [2024-02-18T17:16:31.671305800] Attempting to create event: Movie night
+INFO: [2024-02-18T17:16:31.674306300] Event created successfully: Movie night
+TRACE: [2024-02-18T17:16:31.674306300] Attempting to retrieve event with ID: 2
+INFO: [2024-02-18T17:16:31.699375600] Event retrieved successfully: Book launch
+TRACE: [2024-02-18T17:16:31.699375600] Attempting to delete event with ID: 3
+INFO: [2024-02-18T17:16:31.700381600] Event deleted successfully: ID - 3
+TRACE: [2024-02-18T17:16:31.700381600] Attempting to retrieve event with ID: 4
+INFO: [2024-02-18T17:16:54.091413900] Calculating admission fee for Workshop
+INFO: [2024-02-18T17:16:54.116923500] Admission fee calculated for Workshop: 15.0
+INFO: [2024-02-18T17:16:54.546678200] Database connection established
+TRACE: [2024-02-18T17:16:54.546678200] Attempting to create event: Workshop
+INFO: [2024-02-18T17:16:54.566363300] Event created successfully: Workshop
+TRACE: [2024-02-18T17:16:54.566363300] Attempting to create event: Book launch
+INFO: [2024-02-18T17:16:54.568358800] Event created successfully: Book launch
+TRACE: [2024-02-18T17:16:54.568358800] Attempting to create event: Kids story time
+INFO: [2024-02-18T17:16:54.571607600] Event created successfully: Kids story time
+TRACE: [2024-02-18T17:16:54.571607600] Attempting to create event: Movie night
+INFO: [2024-02-18T17:16:54.573744300] Event created successfully: Movie night
+TRACE: [2024-02-18T17:16:54.574763300] Attempting to retrieve event with ID: 2
+INFO: [2024-02-18T17:16:54.600891] Event retrieved successfully: Book launch
+TRACE: [2024-02-18T17:16:54.600891] Attempting to delete event with ID: 3
+INFO: [2024-02-18T17:16:54.604019800] Event deleted successfully: ID - 3
+TRACE: [2024-02-18T17:16:54.604019800] Attempting to retrieve event with ID: 4
+INFO: [2024-02-18T17:16:54.605020] Event retrieved successfully: Movie night
+TRACE: [2024-02-18T17:16:54.606016] Attempting to update event: Workshop
+INFO: [2024-02-18T17:16:54.609019600] Event updated successfully: Workshop
+INFO: [2024-02-18T17:16:54.613403500] Database connection closed successfully
+TRACE: [2024-02-18T17:16:54.613403500] Closing the logger...
+INFO: [2024-02-18T17:17:09.007549300] Calculating admission fee for Workshop
+INFO: [2024-02-18T17:17:09.029462] Admission fee calculated for Workshop: 15.0
+INFO: [2024-02-18T17:17:09.432420800] Database connection established
+TRACE: [2024-02-18T17:17:09.432420800] Attempting to create event: Workshop
+INFO: [2024-02-18T17:17:09.446356700] Event created successfully: Workshop
+TRACE: [2024-02-18T17:17:09.446356700] Attempting to create event: Book launch
+INFO: [2024-02-18T17:17:09.448975700] Event created successfully: Book launch
+TRACE: [2024-02-18T17:17:09.448975700] Attempting to create event: Kids story time
+INFO: [2024-02-18T17:17:09.451205700] Event created successfully: Kids story time
+TRACE: [2024-02-18T17:17:09.451205700] Attempting to create event: Movie night
+INFO: [2024-02-18T17:17:09.453213100] Event created successfully: Movie night
+TRACE: [2024-02-18T17:17:09.453213100] Attempting to retrieve event with ID: 2
+INFO: [2024-02-18T17:17:09.477995200] Event retrieved successfully: Book launch
+TRACE: [2024-02-18T17:17:09.477995200] Attempting to delete event with ID: 3
+INFO: [2024-02-18T17:17:09.477995200] Event deleted successfully: ID - 3
+TRACE: [2024-02-18T17:17:09.477995200] Attempting to retrieve event with ID: 4
+INFO: [2024-02-18T17:17:09.479446600] Event retrieved successfully: Workshop
+TRACE: [2024-02-18T17:17:09.479446600] Attempting to update event: Workshop
+INFO: [2024-02-18T17:17:09.480859200] Event updated successfully: Workshop
+INFO: [2024-02-18T17:17:09.482866100] Database connection closed successfully
+TRACE: [2024-02-18T17:17:09.482866100] Closing the logger...
