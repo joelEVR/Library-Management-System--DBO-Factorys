@@ -10,6 +10,6 @@ public final class Constants {
 	public static final double WORKSHOP_RATE = 10.0;
 	public static final double KIDS_STORYTIME_RATE = 3.0;
 	public static final double MOVIE_NIGHT_RATE = 3.0;
-	public static final double BOOK_LAUNCH_RATE = 0;
+	public static final double BOOK_LAUNCH_RATE = 1;
 	
 }

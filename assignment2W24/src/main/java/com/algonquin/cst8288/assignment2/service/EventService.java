@@ -11,68 +11,70 @@ import factory.PublicLibrary;
 
 public class EventService {
 
-    public void createEvent(Event event) {
+
+ 
+    
+    public Event createEvent(EventType type, String name, String description, String activities) {
+        LMSLogger.getInstance().log(LogLevel.TRACE, "Entering createEvent method...");
+        Library library = determineLibrary(type); // Determinar la biblioteca basada en el tipo de evento
+
         try {
-        	
-            DBOperations.createEvent(event);
-            LMSLogger.getInstance().log(LogLevel.INFO, "Event created successfully: " + event.getEventName());
+            Event event = library.createEvent(type); // Crear el evento usando la fábrica adecuada
+            event.setEventName(name);
+            event.setEventDescription(description);
+            event.setEventActivities(activities);
+            event.calculateAdmissionFee(); // Calcular el fee específico del evento
+            DBOperations.createEvent(event); // Persistir el evento en la base de datos
+            LMSLogger.getInstance().log(LogLevel.INFO, "Event created successfully: " + name);
+            return event;
         } catch (Exception e) {
             LMSLogger.getInstance().log(LogLevel.ERROR, "Failed to create event: " + e.getMessage());
-            throw e; // O re-lanzar como una nueva excepción si es necesario.
+            throw new RuntimeException("Failed to create event.", e);
         }
     }
 
-    public Event getEvent(int eventId) {
-        try {
-            Event event = DBOperations.retrieveEvent(eventId);
-            if (event != null) {
-                LMSLogger.getInstance().log(LogLevel.INFO, "Event retrieved successfully: " + eventId);
-                return event;
-            } else {
-                LMSLogger.getInstance().log(LogLevel.WARN, "No event found with ID: " + eventId);
-                return null;
-            }
-        } catch (Exception e) {
-            LMSLogger.getInstance().log(LogLevel.ERROR, "Failed to retrieve event: " + e.getMessage());
-            throw e; // O manejar de otra manera si es apropiado.
-        }
-    }
-
-    public void updateEvent(Event event) {
-        try {
-            DBOperations.updateEvent(event);
-            LMSLogger.getInstance().log(LogLevel.INFO, "Event updated successfully: " + event.getEventName());
-        } catch (Exception e) {
-            LMSLogger.getInstance().log(LogLevel.ERROR, "Failed to update event: " + e.getMessage());
-            throw e;
-        }
-    }
-
-    public void deleteEvent(int eventId) {
-        try {
-            DBOperations.deleteEvent(eventId);
-            LMSLogger.getInstance().log(LogLevel.INFO, "Event deleted successfully: " + eventId);
-        } catch (Exception e) {
-            LMSLogger.getInstance().log(LogLevel.ERROR, "Failed to delete event: " + e.getMessage());
-            throw e;
-        }
-    }
-
-    public Event createEventFromType(EventType type) {
-        Library library;
+    private Library determineLibrary(EventType type) {
+        // Esta lógica asume que tienes un método o una manera de decidir qué Library usar
         switch (type) {
             case WORKSHOP:
             case BOOK_LAUNCH:
-                library = new AcademicLibrary();
-                break;
+                return new AcademicLibrary();
             case KIDS_STORY:
             case MOVIE_NIGHT:
-                library = new PublicLibrary();
-                break;
+                return new PublicLibrary();
             default:
                 throw new IllegalArgumentException("Event type not recognized");
         }
-        return library.createEvent(type);
     }
 
+	public Event getEvent(int eventId) {
+		try {
+			Event event = DBOperations.retrieveEvent(eventId);
+				LMSLogger.getInstance().log(LogLevel.INFO, "Event retrieved successfully: " + eventId);
+				return event;
+		} catch (Exception e) {
+			LMSLogger.getInstance().log(LogLevel.ERROR, "Failed to retrieve event: " + e.getMessage());
+			throw e; // O manejar de otra manera si es apropiado.
+		}
+	}
+
+	public void updateEvent(Event event) {
+		try {
+			DBOperations.updateEvent(event);
+			LMSLogger.getInstance().log(LogLevel.INFO, "Event updated successfully: " + event.getEventName());
+		} catch (Exception e) {
+			LMSLogger.getInstance().log(LogLevel.ERROR, "Failed to update event: " + e.getMessage());
+			throw e;
+		}
+	}
+
+	public void deleteEvent(int eventId) {
+		try {
+			DBOperations.deleteEvent(eventId);
+			LMSLogger.getInstance().log(LogLevel.INFO, "Event deleted successfully: " + eventId);
+		} catch (Exception e) {
+			LMSLogger.getInstance().log(LogLevel.ERROR, "Failed to delete event: " + e.getMessage());
+			throw e;
+		}
+	}
 }

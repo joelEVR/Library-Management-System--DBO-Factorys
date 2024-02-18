@@ -79,6 +79,18 @@ public abstract class Event {
 
 	// Every library as it own admission fee
 	public abstract void calculateAdmissionFee();
+
+
+	@Override
+	public String toString() {
+	    return "Event [" +
+	            "\n\tevent Name: '" + eventName + '\'' +
+	            ",\n\tevent Description: '" + eventDescription + '\'' +
+	            ",\n\tevent Activities: '" + eventActivities + '\'' +
+	            ",\n\tadmission Fees: " + admissionFees +
+	            "\n]";
+	}
+
     
     
 }

@@ -1,63 +1,60 @@
 package com.algonquin.cst8288.assignment2.client;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
-
 import com.algonquin.cst8288.assignment2.event.Event;
 import com.algonquin.cst8288.assignment2.event.EventType;
 import com.algonquin.cst8288.assignment2.service.EventService;
 
-import factory.AcademicLibrary;
-import factory.Library;
-
 public class Client {
 
 	public static void main(String[] args) {
+
+		// No es necesario instanciar una Library específica aquí, EventService manejará
+		// esto internamente
+		EventService eventService = new EventService();
+
+		eventService.createEvent(EventType.WORKSHOP, "Workshop", "A deep dive into advanced Java topics",
+				"Presentations, coding sessions, and discussions");
+
+		eventService.createEvent(EventType.BOOK_LAUNCH, "Book launch",
+				"Introduction and discussion of the new edition of 'Effective Java'",
+				"Book signing and meet the author");
+
+		eventService.createEvent(EventType.KIDS_STORY, "Kids story time",
+				"Stories to get kids interested in coding through fairy tales",
+				"Reading sessions and interactive coding games");
+
+		eventService.createEvent(EventType.MOVIE_NIGHT, "Movie night",
+				"Screening of a popular sci-fi movie that inspires technology innovations",
+				"Post-movie discussion on technology in sci-fi");
+
 		
-		        // Crear una instancia de EventService
-		        EventService eventService = new EventService();
-
-		        // Definir los detalles del evento
-		        EventType type = EventType.WORKSHOP; // Tipo de evento
-		        // Suponiendo que existe un constructor en tus clases concretas de Event que acepte estos parámetros
-		        String eventName = "Java Design Patterns";
-		        String eventDescription = "A workshop on Java design patterns";
-		        String eventActivities = "Lectures, hands-on sessions";
-		        double admissionFees = 50.00;
-
-		        // Crear el evento usando la fábrica correspondiente basada en el tipo
-		        Event event = eventService.createEventFromType(type);
-		        event.setEventName(eventName);
-		        event.setEventDescription(eventDescription);
-		        event.setEventActivities(eventActivities);
-		        event.setAdmissionFees(admissionFees);
-
-		        // Guardar el evento en la base de datos
-		        eventService.createEvent(event);
-
-		        System.out.println("Evento creado y guardado en la base de datos con éxito.");
-		    }
+		 // Retrieving an event from the academic library 
+		 Event retrievedEvent = eventService.getEvent(1); 
+		 System.out.println(retrievedEvent.toString());
+		 
 	}
-		/*// Create a new EventFactory object
-		Library eventFactory = new AcademicLibrary();
-		
-		
+}
 
-		
-
-		// Print the event name, event activities, and event description
-		System.out.println("Event Name: " + event.getEventName());
-		System.out.println("Event Activities: " + event.getEventActivities());
-		System.out.println("Event Description: " + event.getEventDescription());
-
-		// Calculate the admission fee for the event
-		event.calculateAdmissionFee();
-
-		// Print the admission fee for the event
-		System.out.println("Admission Fee: " + event.getAdmissionFees());
-	}*/
-
+/*
+*/
+/*
+ * // Create a new EventFactory object Library eventFactory = new
+ * AcademicLibrary();
+ * 
+ * 
+ * 
+ * 
+ * 
+ * // Print the event name, event activities, and event description
+ * System.out.println("Event Name: " + event.getEventName());
+ * System.out.println("Event Activities: " + event.getEventActivities());
+ * System.out.println("Event Description: " + event.getEventDescription());
+ * 
+ * // Calculate the admission fee for the event event.calculateAdmissionFee();
+ * 
+ * // Print the admission fee for the event System.out.println("Admission Fee: "
+ * + event.getAdmissionFees()); }
+ */
 
 /*
  * // Create a new EventFactory object Library eventFactory = new
@@ -76,7 +73,7 @@ public class Client {
  * // Print the admission fee for the event System.out.println("Admission Fee: "
  * + event.getAdmissionFees());
  */
-	
+
 /*
  * Connection con = null;
  * 

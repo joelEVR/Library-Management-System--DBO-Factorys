@@ -4,99 +4,101 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import com.algonquin.cst8288.assignment2.event.Event;
-import com.algonquin.cst8288.assignment2.event.EventType;
-import com.algonquin.cst8288.assignment2.service.EventService;
 
-import factory.Library;
+import com.algonquin.cst8288.assignment2.event.BookLaunch;
+import com.algonquin.cst8288.assignment2.event.Event;
+import com.algonquin.cst8288.assignment2.event.KidsStoryTime;
+import com.algonquin.cst8288.assignment2.event.MovieNight;
+import com.algonquin.cst8288.assignment2.event.Workshop;
+import com.algonquin.cst8288.assignment2.logger.LMSLogger;
+import com.algonquin.cst8288.assignment2.logger.LogLevel;
 
 public class DBOperations {
 
+	// Database connection object
+    private static Connection connection = DBConnection.getInstance().getConnection();
+    private static PreparedStatement statement;
+    private static ResultSet resultSet;
+	
     public static void createEvent(Event event) {
-        String sql = "INSERT INTO events (event_name, event_description, event_activities, admission_fees) VALUES (?, ?, ?, ?)";
-        
-        try (Connection conn = DBConnection.getConnection();
-             PreparedStatement pstmt = conn.prepareStatement(sql)) {
+        try {
+            String sql = "INSERT INTO events (event_name, event_description, event_activities, admission_fees) VALUES (?, ?, ?, ?)";
+            statement = connection.prepareStatement(sql);
             
-            pstmt.setString(1, event.getEventName());
-            pstmt.setString(2, event.getEventDescription());
-            pstmt.setString(3, event.getEventActivities());
-            pstmt.setDouble(4, event.getAdmissionFees());
+            statement.setString(1, event.getEventName());
+            statement.setString(2, event.getEventDescription());
+            statement.setString(3, event.getEventActivities());
+            statement.setDouble(4, event.getAdmissionFees());
+            statement.executeUpdate();
             
-            int affectedRows = pstmt.executeUpdate();
-            if (affectedRows > 0) {
-                // Event was created successfully
-            }
-            
+            LMSLogger.getInstance().log(LogLevel.INFO, "Event created: " + event.getEventName());
         } catch (SQLException e) {
-            e.printStackTrace(); // Consider proper logging
+            LMSLogger.getInstance().log(LogLevel.ERROR, "Failed to create event: " + e.getMessage());
         }
     }
 
-    public static Event retrieveEvent(int event_id) {
-        String sql = "SELECT, event_name, event_description, event_activities, admission_fees FROM events WHERE event_id = ?";
+    public static Event retrieveEvent(int eventId) {
         Event event = null;
-        
-        try (Connection conn = DBConnection.getConnection();
-             PreparedStatement pstmt = conn.prepareStatement(sql)) {
-            
-            pstmt.setInt(1, event_id);
-            ResultSet rs = pstmt.executeQuery();
-            
-            if (rs.next()) {
-                EventType type = EventType.valueOf(rs.getString("event_type"));
-                EventService eventService = new EventService();
-                event = eventService.createEventFromType(type);
-                event.setEventName(rs.getString("event_name"));
-                event.setEventDescription(rs.getString("event_description"));
-                event.setEventActivities(rs.getString("event_activities"));
-                event.setAdmissionFees(rs.getDouble("admission_fees"));
+        try {
+            LMSLogger.getInstance().log(LogLevel.TRACE, "Retrieving event...");
+            String sql = "SELECT * FROM events WHERE event_id = ?";
+            statement = connection.prepareStatement(sql);
+            statement.setInt(1, eventId);
+            try (ResultSet resultSet = statement.executeQuery()) {
+                if (resultSet.next()) {
+                    String eventName = resultSet.getString("event_name");
+                    if (eventName.equals("Workshop")) {
+                        event = new Workshop();
+                    } else if (eventName.equals("Book launch")) {
+                        event = new BookLaunch();
+                    } else if (eventName.equals("Movie night")) {
+                        event = new MovieNight();
+                    } else if (eventName.equals("Kids story time")) {
+                        event = new KidsStoryTime();
+                    }
+                        event.setEventName(resultSet.getString("event_name"));
+                        event.setEventDescription(resultSet.getString("event_description"));
+                        event.setEventActivities(resultSet.getString("event_activities"));
+                        event.setAdmissionFees(resultSet.getDouble("admission_fees"));
+                }
             }
-            
+            LMSLogger.getInstance().log(LogLevel.INFO, "Event retrieved: " + (event != null ? event.getEventName() : "Not found"));
         } catch (SQLException e) {
-            e.printStackTrace(); // Consider proper logging
+            LMSLogger.getInstance().log(LogLevel.ERROR, "Failed to retrieve event: " + e.getMessage());
         }
-        
         return event;
     }
 
+
     public static void updateEvent(Event event) {
-        String sql = "UPDATE events SET event_name = ?, event_description = ?, event_activities = ?, admission_fees = ? WHERE id = ?";
-        
-        try (Connection conn = DBConnection.getConnection();
-             PreparedStatement pstmt = conn.prepareStatement(sql)) {
+        String sql = "UPDATE events SET event_name = ?, event_description = ?, event_activities = ?, admission_fees = ? WHERE event_id = ?";
+        try (Connection conn = DBConnection.getInstance().getConnection();
+             PreparedStatement statement = conn.prepareStatement(sql)) {
             
-            pstmt.setString(1, event.getEventName());
-            pstmt.setString(2, event.getEventDescription());
-            pstmt.setString(3, event.getEventActivities());
-            pstmt.setDouble(4, event.getAdmissionFees());
+            statement.setString(1, event.getEventName());
+            statement.setString(2, event.getEventDescription());
+            statement.setString(3, event.getEventActivities());
+            statement.setDouble(4, event.getAdmissionFees());
             
-            int affectedRows = pstmt.executeUpdate();
-            if (affectedRows > 0) {
-                // Event was updated successfully
-            }
+            statement.executeUpdate();
             
+            LMSLogger.getInstance().log(LogLevel.INFO, "Event updated: " + event.getEventName());
         } catch (SQLException e) {
-            e.printStackTrace(); // Consider proper logging
+            LMSLogger.getInstance().log(LogLevel.ERROR, "Failed to update event: " + e.getMessage());
         }
     }
 
-    public static void deleteEvent(int event_id) {
-        String sql = "DELETE FROM events WHERE id = ?";
-        
-        try (Connection conn = DBConnection.getConnection();
-             PreparedStatement pstmt = conn.prepareStatement(sql)) {
+    public static void deleteEvent(int eventId) {
+        String sql = "DELETE FROM events WHERE event_id = ?";
+        try (Connection conn = DBConnection.getInstance().getConnection();
+             PreparedStatement statement = conn.prepareStatement(sql)) {
             
-            pstmt.setInt(1, event_id);
+            statement.setInt(1, eventId);
+            statement.executeUpdate();
             
-            int affectedRows = pstmt.executeUpdate();
-            if (affectedRows > 0) {
-                // Event was deleted successfully
-            }
-            
+            LMSLogger.getInstance().log(LogLevel.INFO, "Event deleted: ID - " + eventId);
         } catch (SQLException e) {
-            e.printStackTrace(); // Consider proper logging
+            LMSLogger.getInstance().log(LogLevel.ERROR, "Failed to delete event: " + e.getMessage());
         }
     }
 }
-
