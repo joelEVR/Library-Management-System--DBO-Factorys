@@ -1,123 +1,63 @@
 package com.algonquin.cst8288.assignment2.logger;
 
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import java.util.logging.FileHandler;
+import java.util.logging.SimpleFormatter;
 
-//auto generate all code 
 public class LMSLogger {
-	
-	private static LMSLogger instance;
 
-	private LMSLogger() {
-		
-	}
+    private static LMSLogger instance = null;
+    private final Logger logger;
+    private FileHandler fh;
 
-	public static LMSLogger getInstance() {
-		if (instance == null) {
-			instance = new LMSLogger();
-		}
-		return instance;
-	}
+    // Private constructor for Singleton
+    private LMSLogger() {
+        logger = Logger.getLogger("LMSLogger");
+        try {
+            // Configuración del FileHandler para escribir en un archivo de log.
+            // Cambia "app.log" al nombre de archivo que prefieras y la ruta según sea necesario.
+            fh = new FileHandler("app.log", true);
+            logger.addHandler(fh);
+            SimpleFormatter formatter = new SimpleFormatter();
+            fh.setFormatter(formatter);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 
-	public void log(String message) {
-		System.out.println(message);
-	}
+    // Método público estático 'getInstance' para obtener la instancia
+    public static synchronized LMSLogger getInstance() {
+        if (instance == null) {
+            instance = new LMSLogger();
+        }
+        return instance;
+    }
 
-	public void logError(String message) {
-		System.err.println(message);
-	}
+    // Método para registrar mensajes con diferentes niveles
+    public void log(LogLevel level, String message) {
+        switch (level) {
+            case TRACE:
+                logger.log(Level.FINEST, message);
+                break;
+            case DEBUG:
+                logger.log(Level.FINE, message);
+                break;
+            case INFO:
+                logger.log(Level.INFO, message);
+                break;
+            case WARN:
+                logger.log(Level.WARNING, message);
+                break;
+            case ERROR:
+                logger.log(Level.SEVERE, message);
+                break;
+        }
+    }
 
-	public void logException(Exception e) {
-		e.printStackTrace();
-	}
-
-	public void logException(String message, Exception e) {
-		System.err.println(message);
-		e.printStackTrace();
-	}
-
-	public void logException(String message, Throwable t) {
-		System.err.println(message);
-		t.printStackTrace();
-	}
-
-	public void logException(Throwable t) {
-		t.printStackTrace();
-	}
-
-	public void logError(String message, Throwable t) {
-		System.err.println(message);
-		t.printStackTrace();
-	}
-
-	public void logError(Throwable t) {
-		t.printStackTrace();
-	}
-
-	public void logError(Exception e) {
-		e.printStackTrace();
-	}
-
-	public void logDebug(String message) {
-		System.out.println(message);
-	}
-
-	public void logInfo(String message) {
-		System.out.println(message);
-	}
-
-	public void logWarn(String message) {
-		System.out.println(message);
-	}
-
-	public void logFatal(String message) {
-		System.err.println(message);
-	}
-
-	public void logFatal(String message, Throwable t) {
-		System.err.println(message);
-		t.printStackTrace();
-	}
-
-	public void logFatal(Throwable t) {
-		t.printStackTrace();
-	}
-
-	public void logFatal(Exception e) {
-		e.printStackTrace();
-	}
-
-	public void logTrace(String message) {
-		System.out.println(message);
-	}
-
-	public void logTrace(String message, Throwable t) {
-		System.out.println(message);
-		t.printStackTrace();
-	}
-
-	public void logTrace(Throwable t) {
-		t.printStackTrace();
-	}
-
-	public void logTrace(Exception e) {
-		e.printStackTrace();
-	}
-
-	public void logTrace(String message, Exception e) {
-		System.out.println(message);
-		e.printStackTrace();
-	}
-
-	public void logTrace(String message, Throwable t, Exception e) {
-		System.out.println(message);
-		t.printStackTrace();
-		e.printStackTrace();
-	}
-
-	public void logTrace(Throwable t, Exception e) {
-		t.printStackTrace();
-		e.printStackTrace();
-	}
-
-	public void logTrace(Exception e, Throwable t) {
-	
+    // Método para cerrar el FileHandler
+    public void close() {
+        fh.close();
+    }
 }
+ 

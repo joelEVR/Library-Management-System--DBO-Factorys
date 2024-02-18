@@ -13,7 +13,7 @@ import factory.Library;
 public class DBOperations {
 
     public static void createEvent(Event event) {
-        String sql = "INSERT INTO events (eventName, eventDescription, eventActivities, admissionFees) VALUES (?, ?, ?, ?)";
+        String sql = "INSERT INTO events (event_name, event_description, event_activities, admission_fees) VALUES (?, ?, ?, ?)";
         
         try (Connection conn = DBConnection.getConnection();
              PreparedStatement pstmt = conn.prepareStatement(sql)) {
@@ -34,7 +34,7 @@ public class DBOperations {
     }
 
     public static Event retrieveEvent(int event_id) {
-        String sql = "SELECT event_type, eventName, eventDescription, eventActivities, admissionFees FROM events WHERE event_id = ?";
+        String sql = "SELECT, event_name, event_description, event_activities, admission_fees FROM events WHERE event_id = ?";
         Event event = null;
         
         try (Connection conn = DBConnection.getConnection();
@@ -47,10 +47,10 @@ public class DBOperations {
                 EventType type = EventType.valueOf(rs.getString("event_type"));
                 EventService eventService = new EventService();
                 event = eventService.createEventFromType(type);
-                event.setEventName(rs.getString("eventName"));
-                event.setEventDescription(rs.getString("eventDescription"));
-                event.setEventActivities(rs.getString("eventActivities"));
-                event.setAdmissionFees(rs.getDouble("admissionFees"));
+                event.setEventName(rs.getString("event_name"));
+                event.setEventDescription(rs.getString("event_description"));
+                event.setEventActivities(rs.getString("event_activities"));
+                event.setAdmissionFees(rs.getDouble("admission_fees"));
             }
             
         } catch (SQLException e) {
@@ -61,7 +61,7 @@ public class DBOperations {
     }
 
     public static void updateEvent(Event event) {
-        String sql = "UPDATE events SET eventName = ?, eventDescription = ?, eventActivities = ?, admissionFees = ? WHERE id = ?";
+        String sql = "UPDATE events SET event_name = ?, event_description = ?, event_activities = ?, admission_fees = ? WHERE id = ?";
         
         try (Connection conn = DBConnection.getConnection();
              PreparedStatement pstmt = conn.prepareStatement(sql)) {
