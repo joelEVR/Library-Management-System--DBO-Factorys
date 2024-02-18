@@ -1,3 +1,11 @@
+/**
+ * Author: Joel Esteban Velasquez Rodriguez, 041092394
+ * Course: CST8288 – OOP with Design Patterns
+ * Assignment: Assignment 2
+ * Date: 18 Feb 2024
+ */
+
+
 package com.algonquin.cst8288.assignment2.client;
 
 import com.algonquin.cst8288.assignment2.database.DBConnection;
@@ -34,7 +42,7 @@ public class Client {
 				"Post-movie discussion on technology in sci-fi");
 
 		// Retrieving an event from the database
-		int eventIdToRetrieve = 2; // Assume you have an event with this ID
+		int eventIdToRetrieve = 2; 
 		Event retrievedEvent = eventService.getEvent(eventIdToRetrieve);
 		System.out.println(retrievedEvent.toString());
 

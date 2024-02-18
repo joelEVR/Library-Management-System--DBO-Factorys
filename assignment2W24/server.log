@@ -270,3 +270,24 @@ TRACE: [2024-02-18T17:46:28.347246200] Closing the logger...
 INFO: [2024-02-18T17:56:07.634274200] Database connection established
 INFO: [2024-02-18T17:56:16.554689400] Calculating admission fee for Workshop
 INFO: [2024-02-18T17:56:16.558694700] Admission fee calculated for Workshop: 15.0
+INFO: [2024-02-18T18:01:59.093269400] Calculating admission fee for Workshop
+INFO: [2024-02-18T18:01:59.115144300] Admission fee calculated for Workshop: 15.0
+INFO: [2024-02-18T18:01:59.534133900] Database connection established
+TRACE: [2024-02-18T18:01:59.535414500] Attempting to create event: Workshop
+INFO: [2024-02-18T18:01:59.555462900] Event created successfully: Workshop
+TRACE: [2024-02-18T18:01:59.555462900] Attempting to create event: Book launch
+INFO: [2024-02-18T18:01:59.558472200] Event created successfully: Book launch
+TRACE: [2024-02-18T18:01:59.558472200] Attempting to create event: Kids story time
+INFO: [2024-02-18T18:01:59.561947400] Event created successfully: Kids story time
+TRACE: [2024-02-18T18:01:59.561947400] Attempting to create event: Movie night
+INFO: [2024-02-18T18:01:59.565040900] Event created successfully: Movie night
+TRACE: [2024-02-18T18:01:59.565040900] Attempting to retrieve event with ID: 2
+INFO: [2024-02-18T18:01:59.590076900] Event retrieved successfully: Book launch
+TRACE: [2024-02-18T18:01:59.591362700] Attempting to delete event with ID: 3
+INFO: [2024-02-18T18:01:59.592372200] Event deleted successfully: ID - 3
+TRACE: [2024-02-18T18:01:59.592372200] Attempting to retrieve event with ID: 4
+INFO: [2024-02-18T18:01:59.593371100] Event retrieved successfully: Workshop
+TRACE: [2024-02-18T18:01:59.593371100] Attempting to update event: Workshop
+INFO: [2024-02-18T18:01:59.593371100] Event updated successfully: Workshop
+INFO: [2024-02-18T18:01:59.596523100] Database connection closed successfully
+TRACE: [2024-02-18T18:01:59.596523100] Closing the logger...
