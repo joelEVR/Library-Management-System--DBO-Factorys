@@ -1,0 +1,164 @@
+TRACE: [2024-02-18T13:35:04.005219100] Entering createEvent method...
+INFO: [2024-02-18T13:35:04.489461400] Database connection established
+INFO: [2024-02-18T13:35:04.508612] Event created: Workshop
+INFO: [2024-02-18T13:35:04.508612] Event created successfully: Workshop
+TRACE: [2024-02-18T13:35:04.508612] Entering createEvent method...
+INFO: [2024-02-18T13:35:04.511645100] Event created: Book launch
+INFO: [2024-02-18T13:35:04.511645100] Event created successfully: Book launch
+TRACE: [2024-02-18T13:35:04.511645100] Entering createEvent method...
+INFO: [2024-02-18T13:35:04.516037200] Event created: Kids story time
+INFO: [2024-02-18T13:35:04.516037200] Event created successfully: Kids story time
+TRACE: [2024-02-18T13:35:04.516037200] Entering createEvent method...
+INFO: [2024-02-18T13:35:04.519391600] Event created: Movie night
+INFO: [2024-02-18T13:35:04.519391600] Event created successfully: Movie night
+TRACE: [2024-02-18T13:35:04.519391600] Retrieving event...
+INFO: [2024-02-18T13:35:04.543596400] Event retrieved: Book launch
+INFO: [2024-02-18T13:35:04.543596400] Event retrieved successfully: 2
+INFO: [2024-02-18T13:35:04.545885] Event deleted: ID - 3
+INFO: [2024-02-18T13:35:04.545885] Event deleted successfully: 3
+TRACE: [2024-02-18T13:35:04.545885] Retrieving event...
+INFO: [2024-02-18T13:35:04.547389600] Event retrieved: Movie night
+INFO: [2024-02-18T13:35:04.547389600] Event retrieved successfully: 4
+INFO: [2024-02-18T13:35:04.550394] Event updated: New Name of the Event
+INFO: [2024-02-18T13:35:04.550394] El evento ha sido actualizado exitosamente: New Name of the Event
+TRACE: [2024-02-18T13:45:10.707560300] Entering createEvent method...
+INFO: [2024-02-18T13:45:11.170789600] Database connection established
+TRACE: [2024-02-18T13:45:11.170789600] Attempting to create event: Workshop
+INFO: [2024-02-18T13:45:11.192447600] Event created successfully: Workshop
+INFO: [2024-02-18T13:45:11.192447600] Event created successfully: Workshop
+TRACE: [2024-02-18T13:45:11.192447600] Entering createEvent method...
+TRACE: [2024-02-18T13:45:11.192447600] Attempting to create event: Book launch
+INFO: [2024-02-18T13:45:11.195465100] Event created successfully: Book launch
+INFO: [2024-02-18T13:45:11.195465100] Event created successfully: Book launch
+TRACE: [2024-02-18T13:45:11.195465100] Entering createEvent method...
+TRACE: [2024-02-18T13:45:11.195465100] Attempting to create event: Kids story time
+INFO: [2024-02-18T13:45:11.197516500] Event created successfully: Kids story time
+INFO: [2024-02-18T13:45:11.198895500] Event created successfully: Kids story time
+TRACE: [2024-02-18T13:45:11.198895500] Entering createEvent method...
+TRACE: [2024-02-18T13:45:11.198895500] Attempting to create event: Movie night
+INFO: [2024-02-18T13:45:11.201499700] Event created successfully: Movie night
+INFO: [2024-02-18T13:45:11.202505500] Event created successfully: Movie night
+TRACE: [2024-02-18T13:45:11.202505500] Retrieving event...
+INFO: [2024-02-18T13:45:11.226905200] Event retrieved successfully: Book launch
+WARN: [2024-02-18T13:45:11.228314] No event found with ID: 2
+INFO: [2024-02-18T13:45:11.228314] Event retrieved successfully: 2
+TRACE: [2024-02-18T13:45:11.228314] Attempting to delete event with ID: 3
+INFO: [2024-02-18T13:45:11.230394800] Event deleted successfully: ID - 3
+INFO: [2024-02-18T13:45:11.230394800] Event deleted successfully: 3
+TRACE: [2024-02-18T13:45:11.230394800] Retrieving event...
+INFO: [2024-02-18T13:45:11.231397100] Event retrieved successfully: Movie night
+WARN: [2024-02-18T13:45:11.231397100] No event found with ID: 4
+INFO: [2024-02-18T13:45:11.231397100] Event retrieved successfully: 4
+TRACE: [2024-02-18T13:45:11.231397100] Attempting to update event: New Name of the Event
+INFO: [2024-02-18T13:45:11.234209100] Event updated successfully: New Name of the Event
+INFO: [2024-02-18T13:45:11.234209100] El evento ha sido actualizado exitosamente: New Name of the Event
+INFO: [2024-02-18T13:55:15.772876100] Database connection established
+TRACE: [2024-02-18T13:55:15.774871600] Attempting to create event: Workshop
+INFO: [2024-02-18T13:55:15.793774400] Event created successfully: Workshop
+TRACE: [2024-02-18T13:55:15.793774400] Attempting to create event: Book launch
+INFO: [2024-02-18T13:55:15.796826500] Event created successfully: Book launch
+TRACE: [2024-02-18T13:55:15.797830400] Attempting to create event: Kids story time
+INFO: [2024-02-18T13:55:15.800835500] Event created successfully: Kids story time
+TRACE: [2024-02-18T13:55:15.800835500] Attempting to create event: Movie night
+INFO: [2024-02-18T13:55:15.802839800] Event created successfully: Movie night
+TRACE: [2024-02-18T13:55:15.802839800] Retrieving event...
+INFO: [2024-02-18T13:55:15.829956900] Event retrieved successfully: Book launch
+WARN: [2024-02-18T13:55:15.829956900] No event found with ID: 2
+TRACE: [2024-02-18T13:55:15.829956900] Attempting to delete event with ID: 3
+INFO: [2024-02-18T13:55:15.832613400] Event deleted successfully: ID - 3
+TRACE: [2024-02-18T13:55:15.832613400] Retrieving event...
+INFO: [2024-02-18T13:55:15.833780300] Event retrieved successfully: Movie night
+WARN: [2024-02-18T13:55:15.833780300] No event found with ID: 4
+TRACE: [2024-02-18T13:55:15.833780300] Attempting to update event: New Name of the Event
+INFO: [2024-02-18T13:55:15.835786300] Event updated successfully: New Name of the Event
+INFO: [2024-02-18T14:07:31.909208800] Database connection established
+TRACE: [2024-02-18T14:07:31.911491100] Attempting to create event: Workshop
+INFO: [2024-02-18T14:07:31.931625800] Event created successfully: Workshop
+TRACE: [2024-02-18T14:07:31.931625800] Attempting to create event: Book launch
+INFO: [2024-02-18T14:07:31.935020600] Event created successfully: Book launch
+TRACE: [2024-02-18T14:07:31.935020600] Attempting to create event: Kids story time
+INFO: [2024-02-18T14:07:31.937020700] Event created successfully: Kids story time
+TRACE: [2024-02-18T14:07:31.938154700] Attempting to create event: Movie night
+INFO: [2024-02-18T14:07:31.940170800] Event created successfully: Movie night
+TRACE: [2024-02-18T14:07:31.940170800] Attempting to retrieve event with ID: 2
+ERROR: [2024-02-18T14:07:31.967173100] Unknown event type: Book launch
+WARN: [2024-02-18T14:07:31.967173100] No event found with ID: 2
+INFO: [2024-02-18T14:10:26.662840300] Database connection established
+TRACE: [2024-02-18T14:10:26.665008600] Attempting to create event: Workshop
+INFO: [2024-02-18T14:10:26.684432400] Event created successfully: Workshop
+TRACE: [2024-02-18T14:10:26.685445400] Attempting to create event: Book launch
+INFO: [2024-02-18T14:10:26.687852800] Event created successfully: Book launch
+TRACE: [2024-02-18T14:10:26.688857800] Attempting to create event: Kids story time
+INFO: [2024-02-18T14:10:26.691029] Event created successfully: Kids story time
+TRACE: [2024-02-18T14:10:26.691029] Attempting to create event: Movie night
+INFO: [2024-02-18T14:10:26.693087900] Event created successfully: Movie night
+TRACE: [2024-02-18T14:10:26.693087900] Attempting to retrieve event with ID: 2
+INFO: [2024-02-18T14:10:26.718796600] Event retrieved successfully: Book launch
+TRACE: [2024-02-18T14:10:26.718796600] Attempting to delete event with ID: 3
+INFO: [2024-02-18T14:10:26.720800900] Event deleted successfully: ID - 3
+TRACE: [2024-02-18T14:10:26.721802900] Attempting to retrieve event with ID: 4
+INFO: [2024-02-18T14:10:26.721802900] Event retrieved successfully: Movie night
+TRACE: [2024-02-18T14:10:26.721802900] Attempting to update event: New Name of the Event
+INFO: [2024-02-18T14:10:26.724250400] Event updated successfully: New Name of the Event
+INFO: [2024-02-18T14:20:09.120698400] Database connection established
+TRACE: [2024-02-18T14:20:09.122696700] Attempting to create event: Workshop
+INFO: [2024-02-18T14:20:09.143640400] Event created successfully: Workshop
+TRACE: [2024-02-18T14:20:09.143640400] Attempting to create event: Book launch
+INFO: [2024-02-18T14:20:09.146661700] Event created successfully: Book launch
+TRACE: [2024-02-18T14:20:09.147668] Attempting to create event: Kids story time
+INFO: [2024-02-18T14:20:09.150412] Event created successfully: Kids story time
+TRACE: [2024-02-18T14:20:09.150412] Attempting to create event: Movie night
+INFO: [2024-02-18T14:20:09.152704900] Event created successfully: Movie night
+TRACE: [2024-02-18T14:20:09.152704900] Attempting to retrieve event with ID: 2
+INFO: [2024-02-18T14:20:09.178724] Event retrieved successfully: Book launch
+TRACE: [2024-02-18T14:20:09.178724] Attempting to delete event with ID: 3
+INFO: [2024-02-18T14:20:09.179783200] Event deleted successfully: ID - 3
+TRACE: [2024-02-18T14:20:09.179783200] Attempting to retrieve event with ID: 4
+INFO: [2024-02-18T14:41:01.741974300] Database connection established
+TRACE: [2024-02-18T14:41:01.744152800] Attempting to create event: Workshop
+INFO: [2024-02-18T14:41:01.764900900] Event created successfully: Workshop
+TRACE: [2024-02-18T14:41:01.764900900] Attempting to create event: Book launch
+INFO: [2024-02-18T14:41:01.767917100] Event created successfully: Book launch
+TRACE: [2024-02-18T14:41:01.767917100] Attempting to create event: Kids story time
+INFO: [2024-02-18T14:41:01.771667900] Event created successfully: Kids story time
+TRACE: [2024-02-18T14:41:01.771667900] Attempting to create event: Movie night
+INFO: [2024-02-18T14:41:01.775217500] Event created successfully: Movie night
+TRACE: [2024-02-18T14:41:01.776218] Attempting to retrieve event with ID: 2
+INFO: [2024-02-18T14:41:01.803318] Event retrieved successfully: Book launch
+TRACE: [2024-02-18T14:41:01.803318] Attempting to delete event with ID: 3
+INFO: [2024-02-18T14:41:01.806418100] Event deleted successfully: ID - 3
+TRACE: [2024-02-18T14:41:01.806418100] Attempting to retrieve event with ID: 4
+INFO: [2024-02-18T14:41:01.807420800] Event retrieved successfully: Movie night
+TRACE: [2024-02-18T14:41:01.807420800] Attempting to update event: New Name of the Event
+INFO: [2024-02-18T14:41:01.812100400] Event updated successfully: New Name of the Event
+INFO: [2024-02-18T14:42:14.621961400] Database connection established
+TRACE: [2024-02-18T14:42:14.622968] Attempting to create event: Workshop
+INFO: [2024-02-18T14:42:14.645183300] Event created successfully: Workshop
+TRACE: [2024-02-18T14:42:14.645183300] Attempting to create event: Book launch
+INFO: [2024-02-18T14:42:14.648271500] Event created successfully: Book launch
+TRACE: [2024-02-18T14:42:14.648271500] Attempting to create event: Kids story time
+INFO: [2024-02-18T14:42:14.650272] Event created successfully: Kids story time
+TRACE: [2024-02-18T14:42:14.650272] Attempting to create event: Movie night
+INFO: [2024-02-18T14:42:14.653277] Event created successfully: Movie night
+TRACE: [2024-02-18T14:42:14.653277] Attempting to retrieve event with ID: 2
+INFO: [2024-02-18T14:42:14.681041300] Event retrieved successfully: Book launch
+TRACE: [2024-02-18T14:42:14.681041300] Attempting to delete event with ID: 3
+INFO: [2024-02-18T14:42:14.682039900] Event deleted successfully: ID - 3
+TRACE: [2024-02-18T14:42:14.682039900] Attempting to retrieve event with ID: 4
+INFO: [2024-02-18T14:42:29.548302] Database connection established
+TRACE: [2024-02-18T14:42:29.551297800] Attempting to create event: Workshop
+INFO: [2024-02-18T14:42:29.578792500] Event created successfully: Workshop
+TRACE: [2024-02-18T14:42:29.578792500] Attempting to create event: Book launch
+INFO: [2024-02-18T14:42:29.582229900] Event created successfully: Book launch
+TRACE: [2024-02-18T14:42:29.582229900] Attempting to create event: Kids story time
+INFO: [2024-02-18T14:42:29.585308800] Event created successfully: Kids story time
+TRACE: [2024-02-18T14:42:29.585308800] Attempting to create event: Movie night
+INFO: [2024-02-18T14:42:29.587329] Event created successfully: Movie night
+TRACE: [2024-02-18T14:42:29.587329] Attempting to retrieve event with ID: 2
+INFO: [2024-02-18T14:42:29.616080600] Event retrieved successfully: Book launch
+TRACE: [2024-02-18T14:42:29.616080600] Attempting to delete event with ID: 3
+INFO: [2024-02-18T14:42:29.618482200] Event deleted successfully: ID - 3
+TRACE: [2024-02-18T14:42:29.618482200] Attempting to retrieve event with ID: 4
+INFO: [2024-02-18T14:42:29.619482500] Event retrieved successfully: Movie night
+TRACE: [2024-02-18T14:42:29.619482500] Attempting to update event: New Name of the Event
+INFO: [2024-02-18T14:42:29.621638600] Event updated successfully: New Name of the Event

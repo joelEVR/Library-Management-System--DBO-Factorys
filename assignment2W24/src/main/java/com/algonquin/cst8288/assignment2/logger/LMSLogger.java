@@ -1,32 +1,32 @@
 package com.algonquin.cst8288.assignment2.logger;
 
-import java.util.logging.Level;
-import java.util.logging.Logger;
-import java.util.logging.FileHandler;
-import java.util.logging.SimpleFormatter;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.List;
 
 public class LMSLogger {
 
-    private static LMSLogger instance;
-    private final Logger logger;
-    private FileHandler fh;
+    private static LMSLogger instance; // Singleton instance of the logger
+    private List<String> logs; // List to store log messages
+    private LogLevel logLevel; // Current log level
+    private PrintWriter fileWriter; // Writer for log file
 
-    // Private constructor for Singleton
+    // Private constructor to prevent external instantiation
     private LMSLogger() {
-        logger = Logger.getLogger("LMSLogger");
+        logLevel = LogLevel.TRACE; // Default log level
+        logs = new ArrayList<>(); // Initialize list to store log messages
         try {
-            // Configuración del FileHandler para escribir en un archivo de log.
-            // Cambia "app.log" al nombre de archivo que prefieras y la ruta según sea necesario.
-            fh = new FileHandler("app.log", true);
-            logger.addHandler(fh);
-            SimpleFormatter formatter = new SimpleFormatter();
-            fh.setFormatter(formatter);
-        } catch (Exception e) {
-            e.printStackTrace();
+            // Initialize file writer for logging to a file
+            fileWriter = new PrintWriter(new FileWriter("server.log", true));
+        } catch (IOException e) {
+            e.printStackTrace(); // Print stack trace if an IOException occurs
         }
     }
 
-    // Método público estático 'getInstance' para obtener la instancia
+    // Returns the singleton instance of the LMSLogger
     public static synchronized LMSLogger getInstance() {
         if (instance == null) {
             instance = new LMSLogger();
@@ -34,29 +34,32 @@ public class LMSLogger {
         return instance;
     }
 
-    // Método para registrar mensajes con diferentes niveles
-    public void log(LogLevel level, String message) {
-        switch (level) {
-            case TRACE:
-                logger.log(Level.FINEST, message);
-                break;
-            case DEBUG:
-                logger.log(Level.FINE, message);
-                break;
-            case INFO:
-                logger.log(Level.INFO, message);
-                break;
-            case WARN:
-                logger.log(Level.WARNING, message);
-                break;
-            case ERROR:
-                logger.log(Level.SEVERE, message);
-                break;
-        }
+    // Sets the log level for the logger
+    public void setLogLevel(LogLevel level) {
+        this.logLevel = level;
     }
 
-    // Método para cerrar el FileHandler
+    // Logs a message with the specified log level
+    public void log(LogLevel level, String message) {
+        if (level.ordinal() >= this.logLevel.ordinal()) {
+            String logMessage = String.format("%s: [%s] %s", level, LocalDateTime.now(), message);
+            System.out.println(logMessage); // Print log message to console
+            fileWriter.println(logMessage); // Write log message to file
+            fileWriter.flush(); // Flush the writer to ensure the message is written
+        }
+        logs.add(String.format("%s: [%s] %s", level, LocalDateTime.now(), message)); // Add log message to the list
+    }
+
+    // Displays all logged messages in the console
+    public void displayLogs() {
+        logs.forEach(System.out::println);
+    }
+
+    // Closes the logger and the associated file writer
     public void close() {
-        fh.close();
+        log(LogLevel.TRACE, "Closing the logger...");
+        if (fileWriter != null) {
+            fileWriter.close(); // Close the file writer
+        }
     }
 }

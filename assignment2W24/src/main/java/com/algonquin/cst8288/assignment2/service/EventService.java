@@ -9,29 +9,19 @@ import factory.AcademicLibrary;
 import factory.Library;
 import factory.PublicLibrary;
 
+/**
+ * Provides services related to event management including creation, retrieval, update, and deletion of events.
+ */
 public class EventService {
 
-    public Event createEvent(EventType type, String name, String description, String activities) {
-        LMSLogger.getInstance().log(LogLevel.TRACE, "Entering createEvent method...");
-        Library library = determineLibrary(type); // Determinar la biblioteca basada en el tipo de evento
-
-        try {
-            Event event = library.createEvent(type); // Crear el evento usando la fábrica adecuada
-            event.setEventName(name);
-            event.setEventDescription(description);
-            event.setEventActivities(activities);
-            event.calculateAdmissionFee(); // Calcular el fee específico del evento
-            DBOperations.createEvent(event); // Persistir el evento en la base de datos
-            LMSLogger.getInstance().log(LogLevel.INFO, "Event created successfully: " + name);
-            return event;
-        } catch (Exception e) {
-            LMSLogger.getInstance().log(LogLevel.ERROR, "Failed to create event: " + e.getMessage());
-            throw new RuntimeException("Failed to create event.", e);
-        }
-    }
-
+    /**
+     * Determines the appropriate Library instance based on the event type.
+     *
+     * @param type The type of the event.
+     * @return A Library instance that corresponds to the given event type.
+     * @throws IllegalArgumentException If the event type is not recognized.
+     */
     private Library determineLibrary(EventType type) {
-        // Esta lógica asume que tienes un método o una manera de decidir qué Library usar
         switch (type) {
             case WORKSHOP:
             case BOOK_LAUNCH:
@@ -43,46 +33,70 @@ public class EventService {
                 throw new IllegalArgumentException("Event type not recognized");
         }
     }
+    
+    /**
+     * Creates an event based on the provided parameters.
+     *
+     * @param type The type of the event.
+     * @param name The name of the event.
+     * @param description The description of the event.
+     * @param activities The activities involved in the event.
+     * @return The created event.
+     */
+    public Event createEvent(EventType type, String name, String description, String activities) {
+        Library library = determineLibrary(type);
+        Event event = library.createEvent(type); // Create the event using the appropriate factory
+        event.setEventName(name);
+        event.setEventDescription(description);
+        event.setEventActivities(activities);
+        event.calculateAdmissionFee(); // Calculate the specific admission fee for the event
+        DBOperations.createEvent(event); // Creation logic and relevant logs are handled by DBOperations
 
-	public Event getEvent(int eventId) {
-		try {
-			Event event = DBOperations.retrieveEvent(eventId);
-			if (event != null) {
-				LMSLogger.getInstance().log(LogLevel.INFO, "Event retrieved successfully: " + eventId);
-				return event;
-			} else {
-				LMSLogger.getInstance().log(LogLevel.WARN, "No event found with ID: " + eventId);
-				return null;
-			}
-		} catch (Exception e) {
-			LMSLogger.getInstance().log(LogLevel.ERROR, "Failed to retrieve event: " + e.getMessage());
-			throw e; // O manejar de otra manera si es apropiado.
-		}
-	}
+        return event;
+    }
 
-	public void updateEventById(int eventId, String newName, String newDescription, String newActivities, double newAdmissionFees) {
+    /**
+     * Retrieves an event by its ID.
+     *
+     * @param eventId The ID of the event to retrieve.
+     * @return The event if found, otherwise null.
+     */
+    public Event getEvent(int eventId) {
+        Event event = DBOperations.retrieveEvent(eventId); // Retrieval logic and relevant logs are handled by DBOperations
+        if (event == null) {
+            LMSLogger.getInstance().log(LogLevel.WARN, "No event found with ID: " + eventId);
+        }
+        return event;
+    }
+
+    /**
+     * Updates an existing event with new details.
+     *
+     * @param eventId The ID of the event to update.
+     * @param newName The new name of the event.
+     * @param newDescription The new description of the event.
+     * @param newActivities The new activities of the event.
+     * @param newAdmissionFees The new admission fees for the event.
+     */
+    public void updateEvent(int eventId, String newName, String newDescription, String newActivities, double newAdmissionFees) {
         Event eventToUpdate = this.getEvent(eventId);
         if (eventToUpdate != null) {
             eventToUpdate.setEventName(newName);
             eventToUpdate.setEventDescription(newDescription);
             eventToUpdate.setEventActivities(newActivities);
             eventToUpdate.setAdmissionFees(newAdmissionFees);
-            DBOperations.updateEvent(eventToUpdate);
-            LMSLogger.getInstance().log(LogLevel.INFO, "El evento ha sido actualizado exitosamente: " + eventToUpdate.getEventName());
+            DBOperations.updateEvent(eventToUpdate); // Update logic and relevant logs are handled by DBOperations
         } else {
-            LMSLogger.getInstance().log(LogLevel.WARN, "El evento con ID " + eventId + " no fue encontrado.");
+            LMSLogger.getInstance().log(LogLevel.WARN, "The event with ID " + eventId + " was not found.");
         }
     }
 
-
-	public void deleteEvent(int eventId) {
-		try {
-			DBOperations.deleteEvent(eventId);
-			LMSLogger.getInstance().log(LogLevel.INFO, "Event deleted successfully: " + eventId);
-		} catch (Exception e) {
-			LMSLogger.getInstance().log(LogLevel.ERROR, "Failed to delete event: " + e.getMessage());
-			throw e;
-		}
-	}	
-	
+    /**
+     * Deletes an event by its ID.
+     *
+     * @param eventId The ID of the event to delete.
+     */
+    public void deleteEvent(int eventId) {
+        DBOperations.deleteEvent(eventId); // Deletion logic and relevant logs are handled by DBOperations
+    }
 }

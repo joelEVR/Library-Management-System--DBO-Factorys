@@ -1,18 +1,16 @@
 package com.algonquin.cst8288.assignment2.event;
 
 public abstract class Event {
-    
-    protected String eventName;
-    protected String eventDescription;
-    protected String eventActivities;
-    protected double admissionFees;
-    protected int eventId; // Añade esto
 
-    
-    public Event() {
-    	
-    }
-    
+	protected String eventName;
+	protected String eventDescription;
+	protected String eventActivities;
+	protected double admissionFees;
+	protected int eventId; // Añade esto
+
+	public Event() {
+
+	}
 
 	/**
 	 * @return the eventName
@@ -21,14 +19,12 @@ public abstract class Event {
 		return eventName;
 	}
 
-
 	/**
 	 * @param eventName the eventName to set
 	 */
 	public void setEventName(String eventName) {
 		this.eventName = eventName;
 	}
-
 
 	/**
 	 * @return the eventDescription
@@ -37,7 +33,6 @@ public abstract class Event {
 		return eventDescription;
 	}
 
-
 	/**
 	 * @param eventDescription the eventDescription to set
 	 */
@@ -45,14 +40,12 @@ public abstract class Event {
 		this.eventDescription = eventDescription;
 	}
 
-
 	/**
 	 * @return the eventActivities
 	 */
 	public String getEventActivities() {
 		return eventActivities;
 	}
-	
 
 	/**
 	 * @param eventActivities the eventActivities to set
@@ -61,14 +54,12 @@ public abstract class Event {
 		this.eventActivities = eventActivities;
 	}
 
-
 	/**
 	 * @return the admissionFees
 	 */
 	public double getAdmissionFees() {
 		return admissionFees;
 	}
-
 
 	/**
 	 * @param admissionFees the admissionFees to set
@@ -77,28 +68,23 @@ public abstract class Event {
 		this.admissionFees = admissionFees;
 	}
 
-
 	// Every library as it own admission fee
 	public abstract void calculateAdmissionFee();
 
-	
 	@Override
 	public String toString() {
-	    return "Event [" +
-	            "\n\tevent Name: '" + eventName + '\'' +
-	            ",\n\tevent Description: '" + eventDescription + '\'' +
-	            ",\n\tevent Activities: '" + eventActivities + '\'' +
-	            ",\n\tadmission Fees: " + admissionFees +
-	            "\n]";
+		return "Event [" + "\n\tevent Name: '" + eventName + '\'' + ",\n\tevent Description: '" + eventDescription
+				+ '\'' + ",\n\tevent Activities: '" + eventActivities + '\'' + ",\n\tadmission Fees: " + admissionFees
+				+ "\n]";
 	}
-	
+
+	//Add for retrieving the ID
 	public int getEventId() { // Añade getter para el ID
-        return eventId;
-    }
+		return eventId;
+	}
 
-    public void setEventId(int eventId) { // Añade setter para el ID
-        this.eventId = eventId;
-    }
+	public void setEventId(int eventId) { // Añade setter para el ID
+		this.eventId = eventId;
+	}
 
-    
 }
