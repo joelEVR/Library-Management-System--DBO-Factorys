@@ -11,9 +11,6 @@ import factory.PublicLibrary;
 
 public class EventService {
 
-
- 
-    
     public Event createEvent(EventType type, String name, String description, String activities) {
         LMSLogger.getInstance().log(LogLevel.TRACE, "Entering createEvent method...");
         Library library = determineLibrary(type); // Determinar la biblioteca basada en el tipo de evento
@@ -50,23 +47,33 @@ public class EventService {
 	public Event getEvent(int eventId) {
 		try {
 			Event event = DBOperations.retrieveEvent(eventId);
+			if (event != null) {
 				LMSLogger.getInstance().log(LogLevel.INFO, "Event retrieved successfully: " + eventId);
 				return event;
+			} else {
+				LMSLogger.getInstance().log(LogLevel.WARN, "No event found with ID: " + eventId);
+				return null;
+			}
 		} catch (Exception e) {
 			LMSLogger.getInstance().log(LogLevel.ERROR, "Failed to retrieve event: " + e.getMessage());
 			throw e; // O manejar de otra manera si es apropiado.
 		}
 	}
 
-	public void updateEvent(Event event) {
-		try {
-			DBOperations.updateEvent(event);
-			LMSLogger.getInstance().log(LogLevel.INFO, "Event updated successfully: " + event.getEventName());
-		} catch (Exception e) {
-			LMSLogger.getInstance().log(LogLevel.ERROR, "Failed to update event: " + e.getMessage());
-			throw e;
-		}
-	}
+	public void updateEventById(int eventId, String newName, String newDescription, String newActivities, double newAdmissionFees) {
+        Event eventToUpdate = this.getEvent(eventId);
+        if (eventToUpdate != null) {
+            eventToUpdate.setEventName(newName);
+            eventToUpdate.setEventDescription(newDescription);
+            eventToUpdate.setEventActivities(newActivities);
+            eventToUpdate.setAdmissionFees(newAdmissionFees);
+            DBOperations.updateEvent(eventToUpdate);
+            LMSLogger.getInstance().log(LogLevel.INFO, "El evento ha sido actualizado exitosamente: " + eventToUpdate.getEventName());
+        } else {
+            LMSLogger.getInstance().log(LogLevel.WARN, "El evento con ID " + eventId + " no fue encontrado.");
+        }
+    }
+
 
 	public void deleteEvent(int eventId) {
 		try {
@@ -76,5 +83,6 @@ public class EventService {
 			LMSLogger.getInstance().log(LogLevel.ERROR, "Failed to delete event: " + e.getMessage());
 			throw e;
 		}
-	}
+	}	
+	
 }

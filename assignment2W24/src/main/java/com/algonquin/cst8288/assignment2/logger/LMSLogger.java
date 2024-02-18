@@ -7,7 +7,7 @@ import java.util.logging.SimpleFormatter;
 
 public class LMSLogger {
 
-    private static LMSLogger instance = null;
+    private static LMSLogger instance;
     private final Logger logger;
     private FileHandler fh;
 
@@ -60,4 +60,3 @@ public class LMSLogger {
         fh.close();
     }
 }
- 

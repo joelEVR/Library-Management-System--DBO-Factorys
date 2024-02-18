@@ -27,14 +27,25 @@ public class Client {
 				"Screening of a popular sci-fi movie that inspires technology innovations",
 				"Post-movie discussion on technology in sci-fi");
 
-		
-		 // Retrieving an event from the academic library 
-		 Event retrievedEvent = eventService.getEvent(1); 
-		 System.out.println(retrievedEvent.toString());
-		 
-	}
-}
+		// Retrieving an event from the academic library
+		Event retrievedEvent = eventService.getEvent(4);
+		System.out.println(retrievedEvent.toString());
 
+		// Eliminar un evento específico.
+		eventService.deleteEvent(2);
+
+		
+		 // ID del evento a actualizar y los nuevos valores
+        int eventIdToUpdate = 4; // Asume que tienes un evento con este ID
+        String newName = "New Name of the Event`";
+        String newDescription = "New Description of the Event`";
+        String newActivities = "New Activities of the Event`";
+        double newAdmissionFees = 25.0;
+
+        // Actualizar el evento
+        eventService.updateEventById(eventIdToUpdate, newName, newDescription, newActivities, newAdmissionFees);
+    }
+	}
 /*
 */
 /*

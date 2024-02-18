@@ -6,7 +6,8 @@ public abstract class Event {
     protected String eventDescription;
     protected String eventActivities;
     protected double admissionFees;
-    
+    protected int eventId; // Añade esto
+
     
     public Event() {
     	
@@ -80,7 +81,7 @@ public abstract class Event {
 	// Every library as it own admission fee
 	public abstract void calculateAdmissionFee();
 
-
+	
 	@Override
 	public String toString() {
 	    return "Event [" +
@@ -90,7 +91,14 @@ public abstract class Event {
 	            ",\n\tadmission Fees: " + admissionFees +
 	            "\n]";
 	}
+	
+	public int getEventId() { // Añade getter para el ID
+        return eventId;
+    }
 
-    
+    public void setEventId(int eventId) { // Añade setter para el ID
+        this.eventId = eventId;
+    }
+
     
 }

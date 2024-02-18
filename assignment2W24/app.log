@@ -464,3 +464,1987 @@ Feb 18, 2024 12:11:19 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
 INFO: Event retrieved: Workshop
 Feb 18, 2024 12:11:19 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
 INFO: Event retrieved successfully: 1
+Feb 18, 2024 12:13:37 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 12:13:37 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 12:13:37 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 12:13:37 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 12:13:37 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 12:13:37 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 12:13:37 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 12:13:37 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 12:13:37 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 12:13:37 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Workshop
+Feb 18, 2024 12:13:37 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 12:13:37 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 12:13:37 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 12:29:43 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 12:29:43 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 12:29:43 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 12:29:43 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 12:29:43 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 12:29:43 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 12:29:43 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 12:29:43 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 12:29:43 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 12:29:43 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Workshop
+Feb 18, 2024 12:29:43 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 12:29:44 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 12:29:44 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 12:29:44 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+SEVERE: Failed to retrieve event: No operations allowed after connection closed.
+Feb 18, 2024 12:29:44 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 2
+Feb 18, 2024 12:30:31 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 12:30:31 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 12:30:31 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 12:30:31 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 12:30:31 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 12:30:31 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 12:30:31 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 12:30:31 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 12:30:31 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 12:30:31 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Workshop
+Feb 18, 2024 12:30:31 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 12:30:31 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 12:30:31 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 12:30:31 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+SEVERE: Failed to retrieve event: No operations allowed after connection closed.
+Feb 18, 2024 12:30:31 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 3
+Feb 18, 2024 12:31:05 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 12:31:05 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 12:31:05 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 12:31:05 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 12:31:05 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 12:31:05 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 12:31:05 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 12:31:05 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 12:31:05 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 12:31:05 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Workshop
+Feb 18, 2024 12:31:05 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 12:31:05 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 12:31:05 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 12:31:05 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+SEVERE: Failed to retrieve event: No operations allowed after connection closed.
+Feb 18, 2024 12:31:05 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 3
+Feb 18, 2024 12:32:24 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 12:32:24 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 12:32:24 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 12:32:24 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 12:32:24 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 12:32:24 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 12:32:24 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 12:32:24 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 12:32:24 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 12:32:24 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Workshop
+Feb 18, 2024 12:32:24 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 12:32:24 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 12:32:24 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 12:32:24 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+SEVERE: Failed to retrieve event: No operations allowed after connection closed.
+Feb 18, 2024 12:32:24 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 3
+Feb 18, 2024 12:35:26 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 12:35:26 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 12:35:26 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 12:35:26 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 12:35:26 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 12:35:26 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 12:35:26 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 12:35:26 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 12:35:26 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 12:35:26 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Workshop
+Feb 18, 2024 12:35:26 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 12:35:26 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 12:35:26 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 12:35:26 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+SEVERE: Failed to retrieve event: No operations allowed after connection closed.
+Feb 18, 2024 12:35:26 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 3
+Feb 18, 2024 12:48:59 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 12:48:59 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 12:48:59 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 12:48:59 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 12:48:59 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 12:48:59 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 12:48:59 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 12:48:59 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 12:48:59 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 12:48:59 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Workshop
+Feb 18, 2024 12:48:59 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 12:48:59 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 12:48:59 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 12:48:59 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+SEVERE: Failed to retrieve event: No operations allowed after connection closed.
+Feb 18, 2024 12:48:59 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 3
+Feb 18, 2024 12:52:46 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 12:52:46 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 12:52:46 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 12:52:46 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 12:52:46 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 12:52:46 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 12:52:46 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 12:52:46 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 12:52:46 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 12:52:46 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Workshop
+Feb 18, 2024 12:52:46 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 12:52:46 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 12:52:46 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 12:52:46 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+SEVERE: Failed to retrieve event: No operations allowed after connection closed.
+Feb 18, 2024 12:52:46 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 4
+Feb 18, 2024 12:54:15 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 12:54:15 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 12:54:15 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 12:54:15 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 12:54:15 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 12:54:15 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 12:54:15 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 12:54:15 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 12:54:15 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 12:54:15 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Workshop
+Feb 18, 2024 12:54:15 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 12:54:15 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 12:54:15 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 12:54:15 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+SEVERE: Failed to retrieve event: No operations allowed after connection closed.
+Feb 18, 2024 12:54:15 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 4
+Feb 18, 2024 12:56:34 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 12:56:34 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 12:56:34 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 12:56:34 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 12:56:34 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 12:56:34 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 12:56:34 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 12:56:34 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 12:56:34 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 12:56:34 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Workshop
+Feb 18, 2024 12:56:34 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 12:56:34 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 12:56:34 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 12:56:34 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+SEVERE: Failed to retrieve event: No operations allowed after connection closed.
+Feb 18, 2024 12:56:34 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 4
+Feb 18, 2024 12:57:10 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 12:57:10 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 12:57:10 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 12:57:10 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 12:57:10 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 12:57:10 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 12:57:10 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 12:57:10 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 12:57:10 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 12:57:10 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Workshop
+Feb 18, 2024 12:57:10 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 12:57:10 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 12:57:10 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 12:57:10 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+SEVERE: Failed to retrieve event: No operations allowed after connection closed.
+Feb 18, 2024 12:57:10 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 4
+Feb 18, 2024 12:57:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 12:57:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 12:57:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 12:57:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 12:57:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 12:57:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 12:57:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 12:57:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 12:57:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 12:57:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Workshop
+Feb 18, 2024 12:57:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 12:57:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 12:57:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 12:57:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+SEVERE: Failed to retrieve event: No operations allowed after connection closed.
+Feb 18, 2024 12:57:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 4
+Feb 18, 2024 12:59:34 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 12:59:34 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 12:59:34 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 12:59:34 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 12:59:34 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 12:59:34 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 12:59:34 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 12:59:34 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 12:59:34 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 12:59:34 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Workshop
+Feb 18, 2024 12:59:34 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 12:59:34 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 12:59:34 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 12:59:34 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+SEVERE: Failed to retrieve event: No operations allowed after connection closed.
+Feb 18, 2024 12:59:34 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 4
+Feb 18, 2024 1:01:16 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 1:01:16 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 1:01:16 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 1:01:16 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 1:01:16 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 1:01:16 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 1:01:16 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 1:01:16 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 1:01:16 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 1:01:16 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Workshop
+Feb 18, 2024 1:01:16 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 1:01:16 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 1:01:16 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 1:01:16 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+SEVERE: Failed to retrieve event: No operations allowed after connection closed.
+Feb 18, 2024 1:01:16 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 4
+Feb 18, 2024 1:02:31 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 1:02:31 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 1:02:31 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 1:02:31 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 1:02:31 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 1:02:31 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 1:02:31 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 1:02:31 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 1:02:31 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 1:02:31 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Workshop
+Feb 18, 2024 1:02:31 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 1:02:31 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 1:02:31 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 1:02:31 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+SEVERE: Failed to retrieve event: No operations allowed after connection closed.
+Feb 18, 2024 1:02:31 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 10
+Feb 18, 2024 1:05:39 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 1:05:39 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 1:05:39 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 1:05:39 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 1:05:39 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 1:05:39 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 1:05:39 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 1:05:39 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 1:05:39 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 1:05:39 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Workshop
+Feb 18, 2024 1:05:39 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 1:05:39 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 1:05:39 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 1:05:39 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Book launch
+Feb 18, 2024 1:05:39 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 10
+Feb 18, 2024 1:05:39 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated: Movie night
+Feb 18, 2024 1:05:39 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated successfully: Movie night
+Feb 18, 2024 1:12:28 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 1:12:28 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 1:12:28 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 1:12:28 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 1:12:28 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 1:12:28 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 1:12:28 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 1:12:28 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 1:12:28 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 1:12:28 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Movie night
+Feb 18, 2024 1:12:28 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 1:12:28 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 1:12:28 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 1:12:28 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Book launch
+Feb 18, 2024 1:12:28 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 10
+Feb 18, 2024 1:12:28 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated: Movie night
+Feb 18, 2024 1:12:28 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated successfully: Movie night
+Feb 18, 2024 1:12:46 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 1:12:46 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 1:12:46 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 1:12:46 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 1:12:46 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 1:12:46 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 1:12:46 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 1:12:46 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 1:12:46 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 1:12:46 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Movie night
+Feb 18, 2024 1:12:46 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 1:12:46 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 1:12:46 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 1:12:46 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Book launch
+Feb 18, 2024 1:12:46 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 10
+Feb 18, 2024 1:12:46 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated: New Name of the Event
+Feb 18, 2024 1:12:46 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated successfully: New Name of the Event
+Feb 18, 2024 1:13:08 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 1:13:08 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 1:13:08 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 1:13:08 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 1:13:08 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 1:13:08 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 1:13:08 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 1:13:08 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 1:13:08 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 1:13:08 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Movie night
+Feb 18, 2024 1:13:08 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 1:13:08 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 1:13:08 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 1:13:08 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Book launch
+Feb 18, 2024 1:13:08 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 10
+Feb 18, 2024 1:13:08 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated: New Name of the Event
+Feb 18, 2024 1:13:08 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated successfully: New Name of the Event
+Feb 18, 2024 1:14:42 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 1:14:42 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 1:14:42 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 1:14:42 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 1:14:42 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 1:14:42 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 1:14:42 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 1:14:42 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 1:14:42 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 1:14:42 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Movie night
+Feb 18, 2024 1:14:42 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 1:14:42 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 1:14:42 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 1:14:42 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Book launch
+Feb 18, 2024 1:14:42 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 10
+Feb 18, 2024 1:14:42 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated: New Name of the Event
+Feb 18, 2024 1:14:42 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated successfully: New Name of the Event
+Feb 18, 2024 1:17:37 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 1:17:37 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 1:17:37 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 1:17:37 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 1:17:37 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 1:17:37 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 1:17:37 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 1:17:37 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 1:17:37 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 1:17:37 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Movie night
+Feb 18, 2024 1:17:37 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 1:17:37 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 1:17:37 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 1:17:37 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Book launch
+Feb 18, 2024 1:17:37 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 10
+Feb 18, 2024 1:17:37 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated: New Name of the Event
+Feb 18, 2024 1:17:37 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated successfully: New Name of the Event
+Feb 18, 2024 1:19:13 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 1:19:13 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 1:19:13 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 1:19:13 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 1:19:13 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 1:19:13 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 1:19:13 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 1:19:13 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 1:19:13 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 1:19:13 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Movie night
+Feb 18, 2024 1:19:13 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 1:19:13 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 1:19:13 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 1:19:13 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Book launch
+Feb 18, 2024 1:19:13 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 10
+Feb 18, 2024 1:19:13 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+WARNING: No event found with ID: 0
+Feb 18, 2024 1:19:13 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated successfully: New Name of the Event
+Feb 18, 2024 1:22:20 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 1:22:20 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 1:22:20 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 1:22:20 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 1:22:20 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 1:22:20 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 1:22:20 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 1:22:20 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 1:22:20 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 1:22:20 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Movie night
+Feb 18, 2024 1:22:20 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 1:22:20 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 1:22:20 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 1:22:20 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Book launch
+Feb 18, 2024 1:22:20 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 10
+Feb 18, 2024 1:22:20 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+WARNING: No event found with ID: 0
+Feb 18, 2024 1:22:20 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated successfully: Actualizado: Taller Avanzado de Java
+Feb 18, 2024 1:22:20 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+SEVERE: Failed to retrieve event: No operations allowed after connection closed.
+Feb 18, 2024 1:22:20 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 10
+Feb 18, 2024 1:24:53 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 1:24:54 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 1:24:54 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 1:24:54 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 1:24:54 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 1:24:54 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 1:24:54 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 1:24:54 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 1:24:54 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 1:24:54 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Movie night
+Feb 18, 2024 1:24:54 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 1:24:54 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 1:24:54 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 1:24:54 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Book launch
+Feb 18, 2024 1:24:54 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 10
+Feb 18, 2024 1:24:54 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+WARNING: No event found with ID: 0
+Feb 18, 2024 1:24:54 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated successfully: Actualizado: Taller Avanzado de Java
+Feb 18, 2024 1:24:54 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Book launch
+Feb 18, 2024 1:24:54 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 10
+Feb 18, 2024 1:31:18 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 1:31:18 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 1:31:18 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 1:31:18 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 1:31:18 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 1:31:18 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 1:31:18 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 1:31:18 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 1:31:18 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 1:31:18 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Movie night
+Feb 18, 2024 1:31:18 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 1:31:18 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 1:31:18 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 1:31:18 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Book launch
+Feb 18, 2024 1:31:18 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 10
+Feb 18, 2024 1:31:53 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 1:31:53 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 1:31:53 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 1:31:53 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 1:31:53 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 1:31:53 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 1:31:53 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 1:31:53 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 1:31:53 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 1:31:53 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Movie night
+Feb 18, 2024 1:31:53 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 1:31:53 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 1:31:53 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 1:31:53 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Book launch
+Feb 18, 2024 1:31:53 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 10
+Feb 18, 2024 1:31:53 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+SEVERE: Failed to update event: Data truncation: Out of range value for column 'admission_fees' at row 1
+Feb 18, 2024 1:31:53 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated successfully: Actualizado: Taller Avanzado de Java
+Feb 18, 2024 1:31:53 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Book launch
+Feb 18, 2024 1:31:53 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 10
+Feb 18, 2024 2:18:29 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 2:18:29 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 2:18:29 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 2:18:29 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 2:18:29 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 2:18:29 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 2:18:29 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 2:18:29 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 2:18:29 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 2:18:29 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Movie night
+Feb 18, 2024 2:18:29 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 2:18:29 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 2:18:29 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 2:18:29 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Movie night
+Feb 18, 2024 2:18:29 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 2:18:29 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Movie night
+Feb 18, 2024 2:18:29 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated: Nuevo nombre del evento
+Feb 18, 2024 2:18:29 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated successfully: Nuevo nombre del evento
+Feb 18, 2024 2:25:06 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 2:25:07 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 2:25:07 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 2:25:07 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 2:25:07 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 2:25:07 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 2:25:07 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 2:25:07 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 2:25:07 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 2:25:07 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Movie night
+Feb 18, 2024 2:25:07 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 2:25:07 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 2:25:07 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 2:25:07 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Movie night
+Feb 18, 2024 2:25:07 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 2:25:07 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Movie night
+Feb 18, 2024 2:25:07 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated: Nuevo nombre del evento
+Feb 18, 2024 2:25:07 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated successfully: Nuevo nombre del evento
+Feb 18, 2024 2:25:19 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 2:25:19 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 2:25:19 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 2:25:19 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 2:25:19 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 2:25:19 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 2:25:19 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 2:25:19 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 2:25:19 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 2:25:19 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Movie night
+Feb 18, 2024 2:25:19 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 2:25:19 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 2:25:19 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 2:25:19 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Book launch
+Feb 18, 2024 2:25:19 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 10
+Feb 18, 2024 2:25:19 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Book launch
+Feb 18, 2024 2:25:19 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated: Nuevo nombre del evento
+Feb 18, 2024 2:25:19 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated successfully: Nuevo nombre del evento
+Feb 18, 2024 2:28:20 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 2:28:20 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 2:28:20 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 2:28:20 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 2:28:20 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 2:28:20 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 2:28:20 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 2:28:20 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 2:28:20 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 2:28:20 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Movie night
+Feb 18, 2024 2:28:20 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 2:28:20 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 2:28:20 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 2:28:20 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Book launch
+Feb 18, 2024 2:28:20 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 10
+Feb 18, 2024 2:28:20 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Book launch
+Feb 18, 2024 2:28:20 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated: Nuevo nombre del evento
+Feb 18, 2024 2:28:20 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated successfully: Nuevo nombre del evento
+Feb 18, 2024 2:35:00 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 2:35:00 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 2:35:00 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 2:35:00 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 2:35:00 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 2:35:00 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 2:35:00 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 2:35:00 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 2:35:00 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 2:35:00 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Movie night
+Feb 18, 2024 2:35:00 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 2:35:00 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 2:35:00 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 2:35:00 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Book launch
+Feb 18, 2024 2:35:00 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 10
+Feb 18, 2024 2:35:00 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated: Updated event name
+Feb 18, 2024 2:35:00 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated successfully: Updated event name
+Feb 18, 2024 2:37:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 2:37:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 2:37:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 2:37:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 2:37:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 2:37:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 2:37:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 2:37:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 2:37:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 2:37:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Movie night
+Feb 18, 2024 2:37:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 2:37:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 2:37:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 2:37:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Book launch
+Feb 18, 2024 2:37:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 10
+Feb 18, 2024 2:37:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated: Updated event name
+Feb 18, 2024 2:37:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated successfully: Updated event name
+Feb 18, 2024 2:38:26 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 2:38:26 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 2:38:26 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 2:38:26 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 2:38:26 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 2:38:26 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 2:38:26 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 2:38:26 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 2:38:26 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 2:38:26 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Movie night
+Feb 18, 2024 2:38:26 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 2:38:26 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 2:38:26 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 2:38:26 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Kids story time
+Feb 18, 2024 2:38:26 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 3
+Feb 18, 2024 2:38:26 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated: Updated event name
+Feb 18, 2024 2:38:26 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated successfully: Updated event name
+Feb 18, 2024 2:40:51 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 2:40:51 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 2:40:51 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 2:40:51 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 2:40:51 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 2:40:51 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 2:40:51 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 2:40:51 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 2:40:51 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 2:40:51 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Movie night
+Feb 18, 2024 2:40:51 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 2:40:51 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 2:40:51 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 2:40:51 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Kids story time
+Feb 18, 2024 2:40:51 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 3
+Feb 18, 2024 2:40:51 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated: Updated event name
+Feb 18, 2024 2:40:51 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated successfully: Updated event name
+Feb 18, 2024 2:44:21 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 2:44:21 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 2:44:21 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 2:44:21 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 2:44:21 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 2:44:21 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 2:44:21 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 2:44:21 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 2:44:21 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 2:44:21 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Movie night
+Feb 18, 2024 2:44:21 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 2:44:21 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 2:44:21 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 2:44:21 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Kids story time
+Feb 18, 2024 2:44:21 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 3
+Feb 18, 2024 2:44:21 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Kids story time
+Feb 18, 2024 2:44:21 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated: Kids story time
+Feb 18, 2024 2:44:21 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated successfully: Kids story time
+Feb 18, 2024 2:45:56 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 2:45:56 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 2:45:56 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 2:45:56 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 2:45:56 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 2:45:56 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 2:45:56 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 2:45:56 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 2:45:56 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 2:45:56 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Movie night
+Feb 18, 2024 2:45:56 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 2:45:56 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 2:45:56 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 2:45:56 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Kids story time
+Feb 18, 2024 2:45:56 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 3
+Feb 18, 2024 2:45:56 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Kids story time
+Feb 18, 2024 2:45:56 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated: Kids story time
+Feb 18, 2024 2:45:56 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated successfully: Kids story time
+Feb 18, 2024 2:46:32 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 2:46:32 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 2:46:32 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 2:46:32 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 2:46:32 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 2:46:32 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 2:46:32 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 2:46:32 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 2:46:32 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 2:46:32 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Movie night
+Feb 18, 2024 2:46:32 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 2:46:32 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 2:46:32 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 2:46:32 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Kids story time
+Feb 18, 2024 2:46:32 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 3
+Feb 18, 2024 2:46:32 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Kids story time
+Feb 18, 2024 2:46:32 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated: Kids story time
+Feb 18, 2024 2:46:32 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated successfully: Kids story time
+Feb 18, 2024 2:46:35 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 2:46:35 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 2:46:35 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 2:46:35 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 2:46:35 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 2:46:35 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 2:46:35 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 2:46:35 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 2:46:35 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 2:46:35 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Movie night
+Feb 18, 2024 2:46:35 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 2:46:35 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 2:46:35 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 2:46:35 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Kids story time
+Feb 18, 2024 2:46:35 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 3
+Feb 18, 2024 2:46:35 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Kids story time
+Feb 18, 2024 2:46:35 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated: Kids story time
+Feb 18, 2024 2:46:35 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated successfully: Kids story time
+Feb 18, 2024 2:46:39 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 2:46:39 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 2:46:39 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 2:46:39 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 2:46:39 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 2:46:39 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 2:46:39 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 2:46:39 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 2:46:39 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 2:46:39 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Movie night
+Feb 18, 2024 2:46:39 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 2:46:39 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 2:46:39 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 2:46:39 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Kids story time
+Feb 18, 2024 2:46:39 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 3
+Feb 18, 2024 2:46:39 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Kids story time
+Feb 18, 2024 2:46:39 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated: Kids story time
+Feb 18, 2024 2:46:39 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated successfully: Kids story time
+Feb 18, 2024 2:46:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 2:46:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 2:46:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 2:46:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 2:46:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 2:46:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 2:46:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 2:46:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 2:46:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 2:46:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Movie night
+Feb 18, 2024 2:46:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 2:46:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 2:46:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 2:46:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Kids story time
+Feb 18, 2024 2:46:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 3
+Feb 18, 2024 2:46:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Kids story time
+Feb 18, 2024 2:46:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated: Kids story time
+Feb 18, 2024 2:46:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated successfully: Kids story time
+Feb 18, 2024 2:47:18 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 2:47:18 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 2:47:18 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 2:47:18 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 2:47:18 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 2:47:18 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 2:47:18 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 2:47:18 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 2:47:18 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 2:47:18 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Movie night
+Feb 18, 2024 2:47:18 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 2:47:18 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 2:47:18 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 2:47:18 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Kids story time
+Feb 18, 2024 2:47:18 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 3
+Feb 18, 2024 2:47:18 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Kids story time
+Feb 18, 2024 2:47:18 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated: Kids story time
+Feb 18, 2024 2:47:18 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated successfully: Kids story time
+Feb 18, 2024 2:54:16 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 2:54:16 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 2:54:16 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 2:54:16 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 2:54:16 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 2:54:16 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 2:54:16 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 2:54:16 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 2:54:16 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 2:54:16 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Movie night
+Feb 18, 2024 2:54:16 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 2:54:16 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 2:54:16 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 2:54:16 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated: Movie night
+Feb 18, 2024 2:54:16 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated successfully
+Feb 18, 2024 2:55:24 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 2:55:24 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 2:55:24 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 2:55:24 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 2:55:24 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 2:55:24 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 2:55:24 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 2:55:24 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 2:55:24 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 2:55:24 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Movie night
+Feb 18, 2024 2:55:24 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 2:55:24 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 2:55:24 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 2:55:24 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated: Movie night
+Feb 18, 2024 2:55:24 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated successfully
+Feb 18, 2024 2:56:12 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 2:56:12 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 2:56:12 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 2:56:12 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 2:56:12 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 2:56:12 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 2:56:12 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 2:56:12 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 2:56:12 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 2:56:12 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Workshop
+Feb 18, 2024 2:56:12 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 2:56:12 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 2:56:12 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 2:56:12 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated: Workshop
+Feb 18, 2024 2:56:12 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated successfully
+Feb 18, 2024 2:58:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 2:58:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 2:58:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 2:58:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 2:58:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 2:58:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 2:58:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 2:58:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 2:58:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 2:58:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Workshop
+Feb 18, 2024 2:58:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 2:58:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 2:58:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 2:58:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Workshop
+Feb 18, 2024 2:58:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 4
+Feb 18, 2024 2:58:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated: Workshop
+Feb 18, 2024 2:58:52 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated successfully
+Feb 18, 2024 2:59:57 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 2:59:57 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 2:59:57 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 2:59:57 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 2:59:57 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 2:59:57 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 2:59:57 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 2:59:57 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 2:59:57 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 2:59:57 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Workshop
+Feb 18, 2024 2:59:57 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 2:59:57 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 2:59:57 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 2:59:57 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Workshop
+Feb 18, 2024 2:59:57 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 4
+Feb 18, 2024 2:59:57 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated: Movie Night - The Matrix
+Feb 18, 2024 2:59:57 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated successfully
+Feb 18, 2024 3:00:47 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 3:00:47 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 3:00:47 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 3:00:47 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 3:00:47 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 3:00:47 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 3:00:47 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 3:00:47 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 3:00:47 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 3:00:47 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Workshop
+Feb 18, 2024 3:00:47 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 3:00:47 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 3:00:47 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 3:00:47 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Workshop
+Feb 18, 2024 3:00:47 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 5
+Feb 18, 2024 3:00:47 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated: Movie Night - The Matrix
+Feb 18, 2024 3:00:47 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated successfully
+Feb 18, 2024 3:02:37 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 3:02:37 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 3:02:37 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 3:02:37 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 3:02:37 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 3:02:37 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 3:02:37 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 3:02:37 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 3:02:37 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 3:02:37 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Workshop
+Feb 18, 2024 3:02:37 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 3:02:37 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 3:02:37 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 3:02:37 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Workshop
+Feb 18, 2024 3:02:37 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 5
+Feb 18, 2024 3:02:37 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated: Movie Night - The Matrix
+Feb 18, 2024 3:02:37 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated successfully
+Feb 18, 2024 10:55:08 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 10:55:08 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 10:55:08 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 10:55:08 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 10:55:08 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 10:55:08 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 10:55:08 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 10:55:08 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 10:55:08 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 10:55:08 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Workshop
+Feb 18, 2024 10:55:08 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 10:55:08 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 10:55:08 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 10:55:08 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Kids story time
+Feb 18, 2024 10:55:08 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 3
+Feb 18, 2024 10:55:08 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated: Nuevo Nombre del Evento
+Feb 18, 2024 10:55:08 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated successfully
+Feb 18, 2024 10:56:14 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 10:56:14 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 10:56:14 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 10:56:14 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 10:56:14 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 10:56:14 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 10:56:14 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 10:56:14 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 10:56:14 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 10:56:14 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Workshop
+Feb 18, 2024 10:56:14 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 10:56:14 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 10:56:14 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 10:56:14 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Kids story time
+Feb 18, 2024 10:56:14 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 3
+Feb 18, 2024 10:56:14 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated: Nuevo Nombre del Evento
+Feb 18, 2024 10:56:14 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated successfully
+Feb 18, 2024 10:59:46 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 10:59:46 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 10:59:46 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 10:59:46 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 10:59:46 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 10:59:46 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 10:59:46 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 10:59:46 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 10:59:46 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 10:59:46 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Workshop
+Feb 18, 2024 10:59:46 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 10:59:46 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 10:59:46 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 10:59:46 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Workshop
+Feb 18, 2024 10:59:46 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 10:59:46 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated: Nuevo Nombre del Evento
+Feb 18, 2024 10:59:46 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: El evento ha sido actualizado exitosamente: Nuevo Nombre del Evento
+Feb 18, 2024 11:03:16 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 11:03:16 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 11:03:16 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 11:03:16 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 11:03:16 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 11:03:16 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 11:03:16 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 11:03:16 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 11:03:16 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 11:04:40 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 11:04:40 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 11:04:40 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 11:04:40 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 11:04:40 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 11:04:40 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 11:04:40 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 11:04:40 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 11:04:40 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 11:04:40 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Workshop
+Feb 18, 2024 11:04:40 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 11:04:40 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 11:04:40 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 11:04:40 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Workshop
+Feb 18, 2024 11:04:40 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 11:04:40 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated: Nuevo Nombre del Evento
+Feb 18, 2024 11:04:40 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: El evento ha sido actualizado exitosamente: Nuevo Nombre del Evento
+Feb 18, 2024 11:05:16 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 11:05:16 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 11:05:16 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 11:05:16 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 11:05:16 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 11:05:16 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 11:05:16 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 11:05:16 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 11:05:16 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 11:05:16 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+SEVERE: Failed to retrieve event: Cannot invoke "com.algonquin.cst8288.assignment2.event.Event.setEventName(String)" because "event" is null
+Feb 18, 2024 11:05:36 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 11:05:36 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 11:05:36 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 11:05:36 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 11:05:36 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 11:05:36 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 11:05:36 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 11:05:36 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 11:05:36 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 11:05:36 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+SEVERE: Failed to retrieve event: Cannot invoke "com.algonquin.cst8288.assignment2.event.Event.setEventName(String)" because "event" is null
+Feb 18, 2024 11:05:42 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 11:05:42 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 11:05:42 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 11:05:42 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 11:05:42 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 11:05:42 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 11:05:42 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 11:05:42 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 11:05:42 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 11:05:42 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+SEVERE: Failed to retrieve event: Cannot invoke "com.algonquin.cst8288.assignment2.event.Event.setEventName(String)" because "event" is null
+Feb 18, 2024 11:06:11 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 11:06:11 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 11:06:11 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 11:06:11 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 11:06:11 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 11:06:11 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 11:06:11 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 11:06:11 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 11:06:11 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 11:06:11 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Workshop
+Feb 18, 2024 11:06:11 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 11:06:11 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 11:06:11 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 11:06:11 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Workshop
+Feb 18, 2024 11:06:11 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 1
+Feb 18, 2024 11:06:11 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated: Nuevo Nombre del Evento
+Feb 18, 2024 11:06:11 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: El evento ha sido actualizado exitosamente: Nuevo Nombre del Evento
+Feb 18, 2024 11:06:27 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 11:06:27 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 11:06:27 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 11:06:27 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 11:06:27 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 11:06:27 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 11:06:27 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 11:06:27 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 11:06:27 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 11:06:27 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+SEVERE: Failed to retrieve event: Cannot invoke "com.algonquin.cst8288.assignment2.event.Event.setEventName(String)" because "event" is null
+Feb 18, 2024 11:07:28 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 11:07:28 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 11:07:28 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 11:07:28 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 11:07:28 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 11:07:28 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 11:07:28 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 11:07:28 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 11:07:28 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 11:07:28 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Movie night
+Feb 18, 2024 11:07:28 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 4
+Feb 18, 2024 11:07:28 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 11:07:28 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 11:07:28 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Kids story time
+Feb 18, 2024 11:07:28 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 3
+Feb 18, 2024 11:07:28 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated: Nuevo Nombre del Evento
+Feb 18, 2024 11:07:28 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: El evento ha sido actualizado exitosamente: Nuevo Nombre del Evento
+Feb 18, 2024 11:07:53 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 11:07:53 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 11:07:53 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 11:07:53 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 11:07:53 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 11:07:53 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 11:07:53 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 11:07:53 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 11:07:53 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 11:07:53 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Movie night
+Feb 18, 2024 11:07:53 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 4
+Feb 18, 2024 11:07:53 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 11:07:53 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 11:07:53 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Book launch
+Feb 18, 2024 11:07:53 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 10
+Feb 18, 2024 11:07:53 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated: Nuevo Nombre del Evento
+Feb 18, 2024 11:07:53 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: El evento ha sido actualizado exitosamente: Nuevo Nombre del Evento
+Feb 18, 2024 11:09:56 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 11:09:56 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 11:09:56 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 11:09:56 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 11:09:56 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 11:09:56 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 11:09:56 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 11:09:56 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 11:09:56 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 11:09:56 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Movie night
+Feb 18, 2024 11:09:56 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 4
+Feb 18, 2024 11:09:56 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 11:09:56 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 11:09:56 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+SEVERE: Failed to retrieve event: Cannot invoke "com.algonquin.cst8288.assignment2.event.Event.setEventName(String)" because "event" is null
+Feb 18, 2024 11:10:20 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Database connection established
+Feb 18, 2024 11:10:20 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Workshop
+Feb 18, 2024 11:10:20 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Workshop
+Feb 18, 2024 11:10:20 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Book launch
+Feb 18, 2024 11:10:20 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Book launch
+Feb 18, 2024 11:10:20 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Kids story time
+Feb 18, 2024 11:10:20 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Kids story time
+Feb 18, 2024 11:10:20 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created: Movie night
+Feb 18, 2024 11:10:20 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event created successfully: Movie night
+Feb 18, 2024 11:10:20 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Movie night
+Feb 18, 2024 11:10:20 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 4
+Feb 18, 2024 11:10:20 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted: ID - 2
+Feb 18, 2024 11:10:20 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event deleted successfully: 2
+Feb 18, 2024 11:10:20 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved: Movie night
+Feb 18, 2024 11:10:20 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event retrieved successfully: 4
+Feb 18, 2024 11:10:20 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: Event updated: New Name of the Event`
+Feb 18, 2024 11:10:20 AM com.algonquin.cst8288.assignment2.logger.LMSLogger log
+INFO: El evento ha sido actualizado exitosamente: New Name of the Event`
