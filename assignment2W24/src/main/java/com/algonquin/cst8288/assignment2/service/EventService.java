@@ -5,9 +5,9 @@ import com.algonquin.cst8288.assignment2.event.Event;
 import com.algonquin.cst8288.assignment2.event.EventType;
 import com.algonquin.cst8288.assignment2.logger.LMSLogger;
 import com.algonquin.cst8288.assignment2.logger.LogLevel;
-import factory.AcademicLibrary;
-import factory.Library;
-import factory.PublicLibrary;
+import com.algonquin.cst8288.assignment2.factory.Library;
+import com.algonquin.cst8288.assignment2.factory.AcademicLibrary;
+import com.algonquin.cst8288.assignment2.factory.PublicLibrary;
 
 /**
  * Provides services related to event management including creation, retrieval, update, and deletion of events.
