@@ -1,4 +1,4 @@
-package factory;
+package com.algonquin.cst8288.assignment2.factory;
 
 import com.algonquin.cst8288.assignment2.event.Event;
 import com.algonquin.cst8288.assignment2.event.EventType;
