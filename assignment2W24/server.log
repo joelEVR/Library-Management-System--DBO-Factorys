@@ -220,3 +220,8 @@ TRACE: [2024-02-18T17:17:09.479446600] Attempting to update event: Workshop
 INFO: [2024-02-18T17:17:09.480859200] Event updated successfully: Workshop
 INFO: [2024-02-18T17:17:09.482866100] Database connection closed successfully
 TRACE: [2024-02-18T17:17:09.482866100] Closing the logger...
+INFO: [2024-02-18T17:37:52.634677700] Calculating admission fee for Workshop
+INFO: [2024-02-18T17:37:52.638675400] Admission fee calculated for Workshop: 15.0
+INFO: [2024-02-18T17:37:59.801156600] Database connection established
+INFO: [2024-02-18T17:40:44.084372100] Calculating admission fee for Workshop
+INFO: [2024-02-18T17:40:44.086800400] Admission fee calculated for Workshop: 15.0

@@ -1,4 +1,4 @@
-package LMSLogger;
+package lMSLogger;
 
 import org.junit.Assert;
 import org.junit.Test;
