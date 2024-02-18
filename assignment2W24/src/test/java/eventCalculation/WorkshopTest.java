@@ -5,23 +5,21 @@ import com.algonquin.cst8288.assignment2.event.Workshop;
 import org.junit.Assert;
 import org.junit.Test;
 
+/**
+ * Tests the functionality of the Workshop class, specifically focusing on the calculation of admission fees.
+ */
 public class WorkshopTest {
 
+    /**
+     * Tests the calculateAdmissionFee method of the Workshop class.
+     * Verifies that the calculated admission fee is as expected, based on the constants defined for rate and duration.
+     */
     @Test
     public void testCalculateAdmissionFee() {
-        // Create an instance of Workshop
         Workshop workshop = new Workshop();
-        
-        // Manually calculate the expected admission fee
         double expectedFee = Constants.WORKSHOP_RATE * Constants.WORKSHOP_DURATION;
-        
-        // Call the method under test
         workshop.calculateAdmissionFee();
-        
-        // Retrieve the calculated fee
-        double actualFee = workshop.getAdmissionFees(); // Assuming getAdmissionFees() method exists to access admissionFees
-        
-        // Assert that the calculated fee is as expected
+        double actualFee = workshop.getAdmissionFees(); 
         Assert.assertEquals("The admission fee calculated for Workshop is incorrect.", expectedFee, actualFee, 0.0);
     }
 }

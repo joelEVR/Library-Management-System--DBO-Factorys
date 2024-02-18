@@ -5,23 +5,21 @@ import com.algonquin.cst8288.assignment2.event.MovieNight;
 import org.junit.Assert;
 import org.junit.Test;
 
+/**
+ * Tests the functionality of the MovieNight class, specifically focusing on the calculation of admission fees.
+ */
 public class MovieNightTest {
 
+    /**
+     * Tests the calculateAdmissionFee method of the MovieNight class.
+     * Ensures that the calculated admission fee matches the expected fee based on predefined rates and duration.
+     */
     @Test
     public void testCalculateAdmissionFee() {
-        // Crear una instancia de MovieNight
         MovieNight movieNight = new MovieNight();
-        
-        // Calcular manualmente la tarifa de admisión esperada
         double expectedFee = Constants.MOVIE_NIGHT_RATE * Constants.MOVIE_NIGHT_DURATION;
-        
-        // Llamar al método bajo prueba
         movieNight.calculateAdmissionFee();
-        
-        // Obtener la tarifa de admisión calculada
-        double actualFee = movieNight.getAdmissionFees(); // Asumiendo que existe el método getAdmissionFees()
-        
-        // Afirmar que la tarifa calculada es la esperada
-        Assert.assertEquals("La tarifa de admisión calculada para Movie Night es incorrecta.", expectedFee, actualFee, 0.0);
+        double actualFee = movieNight.getAdmissionFees(); 
+        Assert.assertEquals("The admission fee calculated for Movie Night is incorrect.", expectedFee, actualFee, 0.0);
     }
 }
